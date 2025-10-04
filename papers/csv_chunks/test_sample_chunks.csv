@@ -1,0 +1,1795 @@
+paper_id,chunk_id,text
+A Member of the CONSTANS,A Member of the CONSTANS_000,"The paper investigates a CONSTANS-like family protein (COL family) and its role in reactive 
+oxygen species (ROS) homeostasis and physiological responses of Arabidopsis under 
+spaceflight or simulated microgravity. The authors used mutants and gene expression 
+profiling to test whether this COL family member modulates antioxidant pathways and 
+adaptation.
+
+Mutant plants lacking the COL candidate showed altered expression of antioxidant and 
+stress-responsive genes, elevated ROS markers under microgravity/simulated conditions, 
+and some physiological sensitivity compared to wild type. Gene expression patterns 
+implicated the COL member in regulating redox-related transcriptional networks."
+A Member of the CONSTANS,A Member of the CONSTANS_001,"The CONSTANS-like family protein likely contributes to ROS homeostasis and supports 
+physiological adaptation to spaceflight conditions; it represents a potential genetic target 
+to improve plant resilience in microgravity."
+A method for preparing spaceflight RNAlater,A method for preparing spaceflight RNAlater_000,"“Spaceflight experiments with biological samples require rapid fixation to preserve tissues 
+and cells under microgravity. RNAlater is a popular fixative in spaceflight omics 
+experiments, but does not preserve morphology under electron microscopy. We describe a 
+method for postfixation of RNAlater-fixed Arabidopsis thaliana tissue to preserve 
+ultrastructure for scanning electron microscopy (SEM). The tissue is first rinsed in buffered 
+salines to remove RNAlater, followed by fixation with glutaraldehyde, osmium tetroxide, 
+dehydration, and critical point drying. The resulting imaging of guard cells, trichomes, and 
+leaf surfaces shows well-preserved morphology consistent with terrestrial controls, 
+allowing SEM-level cellular imaging after RNAlater fixation.”"
+A method for preparing spaceflight RNAlater,A method for preparing spaceflight RNAlater_001,"Post-fixation of RNAlater-treated tissue produced high-fidelity SEM images: guard cells, 
+trichome structures, and leaf epidermal surfaces were preserved comparably to terrestrial 
+controls; micrographs showed intact stomata, cuticle features, and cell outlines without 
+collapse. The method permitted dual use of samples for transcriptomics and ultrastructure 
+imaging.
+
+The postfixation protocol enables RNAlater-fixed plant tissue (useful for transcriptomics) to 
+be imaged by SEM with preserved morphology, allowing combined molecular and 
+ultrastructural analyses of spaceflight samples."
+ARG1 Functions in the Physiological Adaptation of Undifferentiated Plant Cells to Spaceflight,ARG1 Functions in the Physiological Adaptation of Undifferentiated Plant Cells to Spaceflight_000,"“Plant cells in microgravity often show altered growth, signalling, and stress responses. The 
+ARG1 gene (ALTERED RESPONSE TO GRAVITY 1) is known to be involved in gravitropism in 
+differentiated tissues. Here, we examine the role of ARG1 in the adaptation of 
+undifferentiated Arabidopsis cells to spaceflight. We grew wild-type and ARG1 mutant cell 
+cultures under simulated microgravity and analyzed gene expression, reactive oxygen 
+species (ROS) levels, and viability. ARG1 mutants show greater ROS accumulation, altered 
+transcription of stress genes, and reduced viability in simulated microgravity compared to 
+wild type. These findings suggest that ARG1 helps maintain redox balance and cell survival 
+under spaceflight stress.”"
+ARG1 Functions in the Physiological Adaptation of Undifferentiated Plant Cells to Spaceflight,ARG1 Functions in the Physiological Adaptation of Undifferentiated Plant Cells to Spaceflight_001,"ARG1 mutant cultures accumulated higher ROS (e.g., H₂O₂), displayed dysregulated 
+antioxidant gene expression (SODs, peroxidases), and had reduced viability under 
+simulated microgravity; complementation partially rescued phenotypes.
+
+ARG1 contributes to ROS homeostasis and survival of undifferentiated plant cells under 
+microgravity stress, indicating a role beyond gravitropism that is important for plant 
+adaptation in spaceflight."
+Analyzing the relationship between gene expression and phenotype in space,Analyzing the relationship between gene expression and phenotype in space_000,"Spaceflight has several detrimental effects on human and rodent health. For example, liver 
+dysfunction is a common phenotype observed in space-flown rodents, and this dysfunction is 
+partially reflected in transcriptomic changes. Studies linking transcriptomics with liver 
+dysfunction rely on tools which exploit correlation, but these tools make no attempt to 
+disambiguate true correlations from spurious ones. In this work, we use a machine learning 
+ensemble of causal inference methods called the Causal Research and Inference Search 
+Platform (CRISP) which was developed to predict causal features of a binary response variable 
+from high-dimensional input. We used CRISP to identify genes robustly correlated with a lipid 
+density phenotype using transcriptomic and histological data from the NASA Open Science 
+Data Repository (OSDR). Our approach identified genes and molecular targets not predicted by 
+previous traditional differential gene expression analyses. These genes are likely to play a 
+pivotal role in the liver dysfunction observed in space-flown rodents, and this work opens the 
+door to identifying novel countermeasures for space travel."
+Analyzing the relationship between gene expression and phenotype in space,Analyzing the relationship between gene expression and phenotype in space_001,"Gene Identification: CRISP identified genes robustly correlated with a lipid density phenotype in 
+space-flown mice.
+
+Comparison with Traditional Methods: The identified genes were not predicted by previous 
+traditional differential gene expression analyses.
+
+Potential Targets: These genes and molecular targets are likely to play a pivotal role in the liver 
+dysfunction observed in space-flown rodents.
+
+Causal Inference Approach: The use of a causal inference machine learning ensemble provides 
+a more accurate identification of genes associated with liver dysfunction in space-flown rodents.
+
+Implications for Space Health: Identifying these genes opens the door to developing novel 
+countermeasures for space travel-related health issues."
+Artificial gravity partially protects space,Artificial gravity partially protects space_000,"The authors examined how artificial gravity (centrifugation) impacts neurological deficits induced 
+by spaceflight in Drosophila. Flies exposed to microgravity exhibited motor and neuronal 
+defects; addition of artificial gravity during flight partially rescued behavioral and cellular 
+phenotypes.
+
+Spaceflight flies showed deficits in locomotion and neuronal morphology / cell physiology. 
+Flies that experienced artificial gravity during flight had reduced severity of these deficits — 
+improvements in motor assays and some preservation of neuronal structure. 
+Molecular markers of stress/degeneration were attenuated with artificial gravity.
+
+Artificial gravity can partially mitigate spaceflight-induced neurological dysfunction in Drosophila, 
+supporting artificial gravity as a promising countermeasure to protect nervous system function in 
+space."
+Beyond low,Beyond low_000,"The authors simulated deep-space conditions (hindlimb unloading for microgravity ± 
+charged-particle radiation representing GCR or SPE) and characterized immune responses 
+and circulating microRNAs in mice, comparing to astronaut LEO data. Distinct immune 
+signatures emerged for different stressor combinations; plasma miRNA analysis 
+implicated regulators of immune dysregulation. Astronaut cohort data showed elevated 
+inflammation in LEO, supporting the ground models.
+
+Each simulation (HU alone, HU + SPE, HU + GCR-like) produced unique circulating immune 
+profiles. 
+Specific lymphocyte and granulocyte changes were condition-dependent. 
+Plasma microRNA sequencing revealed differentially abundant miRNAs linked to immune 
+pathways. 
+Comparison with astronaut blood data showed elevated inflammatory markers during ISS 
+missions."
+Beyond low,Beyond low_001,"Different deep-space radiation types combined with simulated microgravity produce 
+distinct circulating immune phenotypes and miRNA signatures in mice; those circulating 
+biomarkers could be targets for countermeasures to protect astronaut immune health 
+beyond LEO."
+Bisphosphonates attenuate age-related muscle decline in Caenorhabditis elegans (PMC10751425) PMC,Bisphosphonates attenuate age-related muscle decline in Caenorhabditis elegans (PMC10751425) PMC_000,"/ Aim (summary) 
+●​ Although bisphosphonates are typically used to protect bone (anti-resorptives), this study 
+tests whether they can also counter sarcopenia (age-related muscle decline) in C. 
+elegans, which lacks an endoskeleton. PMC 
+●​ The authors use zoledronic acid (ZA) at varying doses and assess 
+neuromuscular/locomotor function, lifespan, muscle structure, and molecular mediators. 
+PMC+2ResearchGate+2 
+Key Results 
+●​ At low doses (100 nM and 1 µM), ZA increased lifespan and improved healthspan 
+(locomotor activity) relative to untreated controls. ResearchGate+2PMC+2 
+●​ Higher doses (e.g. 10 µM) were detrimental (shortened lifespan or adverse effects) and 
+still did not improve function. ResearchGate+1 
+●​ ZA treatment preserved myofibrillar organization better at days 4 and 6 of adulthood 
+(i.e. better muscle structure) compared to controls. ResearchGate+1 
+●​ The authors employed RNAi knockdowns of candidate genes to explore mechanism 
+(e.g. interactions with pathways regulating muscle homeostasis). PMC 
+Conclusion / Implication 
+●​ Even though C. elegans lacks bone, bisphosphonate (zoledronic acid) treatment can 
+attenuate age-related decline in muscle (sarcopenia analog), improving 
+neuromuscular function. PMC+1 
+●​ The findings suggest bisphosphonates might be repurposed as anti-sarcopenia 
+agents (in addition to their bone effects) in other systems, though dose and side effects 
+require careful study. PMC+1 
+●​ This is a proof-of-concept in a simple model; further validation in vertebrate models is 
+needed before translational application."
+Bisphosphonates attenuate age-related muscle decline in Caenorhabditis elegans (PMC10751425) PMC,Bisphosphonates attenuate age-related muscle decline in Caenorhabditis elegans (PMC10751425) PMC_001,"/ Implication 
+●​ Even though C. elegans lacks bone, bisphosphonate (zoledronic acid) treatment can 
+attenuate age-related decline in muscle (sarcopenia analog), improving 
+neuromuscular function. PMC+1 
+●​ The findings suggest bisphosphonates might be repurposed as anti-sarcopenia 
+agents (in addition to their bone effects) in other systems, though dose and side effects 
+require careful study. PMC+1 
+●​ This is a proof-of-concept in a simple model; further validation in vertebrate models is 
+needed before translational application."
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_000,"The SpaceX Inspiration4 mission provided a unique opportunity to study the impact of 
+spaceflight on the human body. Biospecimen samples were collected from four crew 
+members longitudinally before (Launch: L-92, L-44, L-3 days), during (Flight Day: FD1, 
+FD2, FD3), and after (Return: R + 1, R + 45, R + 82, R + 194 days) spaceflight, spanning a 
+total of 289 days across 2021-2022. The collection process included venous whole blood, 
+capillary dried blood spot cards, saliva, urine, stool, body swabs, capsule swabs, SpaceX 
+Dragon capsule HEPA filter, and skin biopsies. Venous whole blood was further processed to 
+obtain aliquots of serum, plasma, extracellular vesicles and particles, and peripheral blood 
+mononuclear cells. In total, 2,911 sample aliquots were shipped to our central lab at Weill 
+Cornell Medicine for downstream assays and biobanking. This paper provides an overview of 
+the extensive biospecimen collection and highlights their processing procedures and long-
+term biobanking techniques, facilitating future molecular tests and evaluations.As such, this 
+study details a robust framework for obtaining and preserving high-quality human, microbial, 
+and environmental samples for aerospace medicine in the Space Omics and Medical Atlas 
+(SOMA) initiative, which can aid future human spaceflight and space biology experiments."
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_001,"Subject terms: Molecular biology, Genetics, Biomarkers 
+Here the authors provide the biospecimen collection methodology from the SpaceX 
+Inspiration4 mission, including venous blood, capillary blood, saliva, urine, stool, skin 
+biopsy, body swab, and environmental swab samples
+
+Biospecimen collection overview 
+We formulated and executed a sampling plan that spans a wide range of biospecimen 
+samples: venous blood, capillary dried blood spots (DBSs), saliva, urine, stool, skin swabs, 
+skin biopsies, and environmental swabs (Fig. 1a). The collection of various types of samples 
+covered the scope of previous assays on astronaut samples (Supplementary Table 1), but also 
+enabled newer omics technologies, such as spatially resolved, single-molecule, and single-
+cell assays. 
+Fig. 1. Biospecimen Samples and Collection Locations."
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_002,"Open in a new tab 
+a List of biospecimen samples collected over the course of the study. b Timepoints for each 
+biospecimen sample collection. “L-” denotes the number of days prior to launch. “R + ” 
+denotes the number of days after return to Earth. “FD” denotes which day of the flight a 
+sample was collected. c Location of each collection timepoint. 
+For the I4 mission, sample collection spanned three-time points pre-launch (L-92, L-44, L-3 
+days), three-time points during flight (Flight Day 1 (FD1), FD2, FD3), and four-time points 
+post-return (R + 1, R + 45, R + 82, R + 194 days). Venous blood, urine, stool, and skin 
+biopsies were collected during ground timepoints only, while capillary DBSs, saliva, and skin 
+swabs were collected both on the ground and during flight (Fig. 1b). Environmental swabs of 
+the Dragon capsule were collected pre-flight in the crew training capsule and during flight in 
+the spacecraft launched from Cape Canaveral (Fig. 1b). 
+Samples were collected across a variety of locations based on the crew’s training and travel 
+schedule. L-92 and L-44 were collected in Hawthorne, CA at SpaceX Headquarters, L-3 and 
+R + 1 were collected at Cape Canaveral, FL at a facility near the launch site. FD1, FD2, and 
+FD3 were collected inside the Dragon capsule while in orbit. R + 45 was collected at the crew"
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_003,"members’ individual locations (which spanned the US States NY, NJ, TN, and WA), R + 82 
+was collected at Weill Cornell Medicine, NY and R + 194 was collected at Baylor College of 
+Medicine, TX (Fig. 1c). All samples from ground timepoints were processed within 16 hours 
+of collection. All samples from the flight were processed immediately after retrieval from the 
+flight. 
+Samples were stored at −80 °C at each site immediately after processing and aliquoting 
+(processing steps are outlined below). All samples were shipped via FedEx using Overnight 
+Shipping to Weill Cornell Medicine for storage in the Cornell Aerospace Medicine Biobank 
+(CAMbank) within 1 week of collection on dry ice in styrofoam boxes and spent <2 days in 
+transit. No samples were shipped on a Thursday or Friday to avoid weekend shipping delays. 
+All samples arrived at Weill Cornell Medicine with dry-ice still in the packaging and samples 
+frozen. Samples were immediately transferred to −80 °C for long-term storage and 
+biobanking. Any exceptions to this process will be noted below. In total, we collected 2,911 
+sample aliquots, which were then processed in our central lab at Weill Cornell Medicine for 
+downstream assays (Supplementary Table 2). Some samples were processed immediately at 
+field laboratory facilities (Supplementary Data Fig. 1). DNA and RNA yields are also 
+reported below from collection kits (saliva and stool) after arrival at WCM. 
+Blood collection and derivatives 
+Blood was collected using a combination of venipuncture tubes to collect venous blood and 
+contact-activated lancets to collect capillary blood from the fingertip. Each crew member 
+provided blood samples, collected into one BD PAXgene blood RNA tube (bRNA), four BD 
+Vacutainer K2 EDTA tubes, two BD Vacutainer cell preparation tubes (CPTs), one Streck 
+cell-free DNA tube (cfDNA BCT), one BD Vacutainer serum separator tube (SST), and one 
+DBS card per time point. Tubes were transported from the collection site to the field 
+laboratory at room temperature. From these tubes, whole blood, plasma, PBMCs, serum, and 
+cell pellet samples were collected (Supplementary Table 3). Sample yields are reported 
+below. Samples were aliquoted for long-term storage and biobanking (Supplementary 
+Table 4). 
+bRNA tubes were collected in order to isolate total RNA using the PAXgene blood RNA kit 
+(Fig. 2a). Yield ranged from 3.04 to 14.04 µg/tube of total RNA across all samples, and the 
+RNA integrity number (RIN) ranged from 3.2 to 8.5 (mean: 6.95) (Fig. 2b). RNA was stored 
+at −80 °C after extraction. The collection of total RNA enables a variety of downstream RNA 
+profiling methods. It will allow comparative studies to prior RNA-sequencing performed on 
+astronauts, particularly snoRNA & lncRNA biomarkers analyzed from Space Shuttle era 
+blood25,26, mRNA & miRNA measured during the NASA Twin Study17,18, and whole blood 
+RNA arrays from the ISS27,28. Additionally, RNA yields are more than sufficient to perform 
+direct-RNA sequencing using Oxford Nanopore Technologies (ONT) platforms, which 
+require 500 ng of total RNA per library (Manufacturer’s protocol, ONT kit SQK-RNA002). 
+This enables the study of RNA modification changes during spaceflight to create 
+epitranscriptomic profiles for the first time in astronauts. 
+Fig. 2. bRNA and K2 EDTA Tubes."
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_004,"Open in a new tab 
+a One 2.5 mL bRNA tube was collected per crew member at each ground timepoint. b bRNA 
+tube total RNA yields per sample (μg) and RINs. c Four K2 EDTA tubes were collected per 
+member at each ground timepoint. One tube was used for a CBC, one tube was used to isolate 
+EVPs, and two tubes were used for isolation of PBMCs. d Plasma and EVP yields from the 
+“[2] EVPS” tube on Fig. 2c. e PBMC yields per mL from the “[3] PBMCs” tubes on Fig. 2c. 
+Four K2 EDTA tubes were drawn at each timepoint from each crew member (Fig. 2c). One 
+K2 EDTA tube was submitted to Quest Diagnostics to perform a complete blood count 
+(CBC, Quest Test Code: 6399). One tube was used to isolate extracellular vesicles and 
+particles (EVPs) for proteomic quantification (Fig. 3a). Total EVP quantities varied from 
+2.71-28.27 ug (Fig. 2d). Two K2 EDTA tubes were used to isolate PBMCs for single-cell 
+sequencing (10X Chromium Single Cell Multiome ATAC + Gene Expression and Chromium 
+Single Cell Immune Profiling workflows). After collection, a Ficoll separation was 
+performed to isolate PBMCs, which ranged from 340,000-975,000 cells per mL of blood 
+(Fig. 2e). One prior single-cell gene expression experiment, NASA Twin study, was 
+performed on astronauts, which found immune cell population specific gene expression 
+changes and a correlation with microRNA signatures11,18. 
+Fig. 3. Tube Processing Steps."
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_005,"Open in a new tab 
+Centrifuge (brown circles) and aliquoting (white and green boxes and circles) protocols 
+for a K2 EDTA tubes designated for EVP isolation b CPTs c cfDNA BCTs ans.d d SST. 
+Additional PBMCs, plasma, and serum were collected from CPTs (Fig. 4a), cfDNA BCTs 
+(Fig. 4d), SSTs (Fig. 4c), as well as red blood cell pellets. CPTs were spun and aliquoted 
+according to the manufacturer’s instructions (Fig. 3b). Plasma volume per tube ranged from 
+3000-14,000 uL per tube (Fig. 4d). Because of technical issues in the sample processing 
+procedure, three instances occurred where plasma retrieval from the CPT tubes was not 
+possible. Plasma can be used to validate or refute previous studies, including cytokine 
+panel10,29, exosomal RNA-seq25,26, extracellular vesicle microRNA30, and proteomic20,31–
+33results. PBMCs were also collected, aliquoted into 6 cryovials per CPT, and stored in liquid 
+nitrogen after slowly cooled in a Mr. Frosty to -80 °C. These can be used to follow-up on 
+previous studies on adaptive immunity, cell function, and immune dysregulation8,34–39. The 
+remaining red blood cell pellet mixtures from below the gel plug in each CPT Tube were 
+stored at −20 °C. 
+Fig. 4. CPT, cfDNA BCT, and SST Yields."
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_006,"Open in a new tab 
+a A spun CPT yields plasma, PBMCs, and a red blood cell pellet. PBMC from each tube 
+were divided into 6 cryovials and viably frozen. Plasma was aliquoted and the pellet was 
+frozen at −20C. b A spun cfDNA BCT yields plasma and a red blood cell pellet. Plasma was 
+purified with an additional spin (see Fig. 4a) then aliquoted. The pellet was frozen at 
+−20C. c A spun SST yields serum and a red blood cell pellet. Serum was aliquoted and the 
+pellet was frozen at −20C. d CPT plasma volumes per timepoint are reported. e cfDNA 
+(Streck) BCT plasma volumes per timepoint. fSST serum volumes per timepoint. An extra 
+tube was drawn for C004 at R + 45, resulting in a higher serum yield. 
+cfDNA BCT (Streck) tubes were collected to isolate high-quality cfDNA from plasma. 
+cfDNA BCTs were spun and aliquoted according to the manufacturer’s instructions (Fig. 3c). 
+The remaining cell pellet mixture was frozen at −20 °C. Plasma volume per timepoint ranged 
+from 1500-5000 uL (Fig. 4e). 500 uL aliquots were frozen at -80 °C. cfDNA extracted from 
+these tubes can be analyzed for fragment length, mitochondrial or nuclear origin, and cell 
+type or tissue of origin40–42."
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_007,"The SST was spun and aliquoted according to the manufacturer’s instructions (Fig. 3d). 
+Serum volume ranged from 2000-8000 uL per timepoint (Fig. 4f). Similar to plasma, serum 
+can be allocated for cytokine analysis and can also be used to perform comprehensive 
+metabolic panels, including one we used at Quest (CMP, Quest Test Code: 10231) for metrics 
+on alkaline phosphatase, calcium, glucose, potassium, and sodium, among other metabolic 
+markers. The remaining cell pellet mixture from each SST tube was stored at −20 °C. 
+In addition to venous blood, capillary blood was collected onto a DBS card using a contact-
+activated lancet pressed against the fingertip (Fig. 5a). Capillary blood was collected onto a 
+Whatman 903 Protein Saver DBS card to preserve nucleic acids and proteins. Each of the five 
+spots on the DBS card hold 75-80uL of capillary blood, however, the amount of capillary 
+blood collected across timepoints varied (Fig. 5b, c) according to how much blood could be 
+collected before the lancet-puncture closed. 
+Fig. 5. Dried Blood Spot (DBS) Collection Yields."
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_008,"Open in a new tab 
+a DBS cards were collected preflight, during flight, and postflight. There were five spots for 
+blood collection per card. b Blood collections varied in saturation level across blood spots 
+and timepoints. These were classified as “full”, “partial”, and occasionally “empty”. c DBS 
+card yields per blood spot, per timepoint, and per crew member. 
+Saliva collection 
+Saliva was collected at the L-92, L-44, L-3, FD1, FD2, FD3, R + 1, R + 45, and R + 82 
+timepoints using two methods. First, saliva was collected using the OMNIgene Oral Kit"
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_009,"(OME-505), which preserves nucleic acids (Fig. 6a) during the ground timepoints. From 
+these samples, DNA, RNA, and protein were extracted. DNA yield ranged from 28.1 to 
+3187.8 ng, RNA yield from 396.0 to 3544.2 ng (less the two samples had concentrations too 
+low for measurement), and protein concentration from 92.97 to 93.15 ng. 
+Fig. 6. Saliva Collections."
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_010,"Open in a new tab 
+a DNA, RNA, and protein yields from the OMNIgene Oral kits. b Volume of crude saliva 
+collected per timepoint. 
+Second, crude saliva (i.e., saliva with no preservative added) was collected into a 5 mL 
+DNase/RNase-free screw top tube during the ground and flight timepoints. Saliva volume 
+varied from 150 to 4000 uL per tube (Fig. 6b). Crude saliva was also collected during flight 
+(FD2 and FD3), in addition to the ground timepoints. 
+Saliva collections have been conducted throughout spaceflight studies for assessing the 
+immune state of crews, particularly in the context of viral reactivation. Previously identified 
+viruses that reactivate during spaceflight include Epstein–Barr, varicella-zoster, and 
+cytomegalovirus43. Responses to reactivation of these viruses can be asymptomatic, 
+debilitating, or even life-threatening, thus assessing these adaptations is beneficial in 
+understanding viral spaceflight activity as well as crew health. In addition to viral nucleic 
+acid quantification, numerous biochemical assays can also be performed, including"
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_011,"measurements of C-reactive protein (CRP), cortisol, dehydroepiandrosterone (DHEA), and 
+cytokines, among others10,43–46. 
+Urine collection 
+Urine was collected in sterile specimen cups at the L-92, L-44, L-3, R + 1, R + 45, and R + 82 
+timepoints. Specimen cups were collected 1-2 times per day. For preservation, urine was 
+aliquoted and stored at -80 °C. Half the urine had Zymo Urine Conditioning Buffer (UCB) 
+added before freezing, to preserve nucleic acids. Samples yielded 23–155.5 mL of crude urine 
+and 21 - 112 mL of UCB urine per specimen cup (Fig. 7a). Urine was split into 1 mL - 15 mL 
+aliquots before freezing at -80 °C. 
+Fig. 7. Urine and Stool Sample Collections."
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_012,"Open in a new tab 
+a Urine volumes per timepoint. Volumes are reported for both crude urine and urine 
+preserved with Zymo urine conditioning buffer (UCB). b Timepoints that stool tubes were 
+collected. “Gut” tubes are OMNIgene•GUT tubes for microbiome preservation. “Met” tubes 
+are OMNImet•GUT tubes for metabolome preservation. c Stool “Gut” tube DNA and RNA 
+extraction quantities. 
+A wide variety of assays can be performed on urine samples. Previous studies have included 
+viral reactivation43,46,47, urinary cortisol48,49, iron and magnesium measurements50–53, bone 
+status54–56, kidney stones54,55, proteomics11, telomere measurements57, and various biomarkers 
+and metabolites17,49,58–61. 
+Stool collection"
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_013,"Stool was collected at the L-92, L-44, R + 1, R + 45, and R + 82 timepoints. Stool samples 
+were stored into two collection containers at each timepoint, one DNA Genotek OMNIgene 
+Gut (OMR−200) kit with a preservative for metagenomics and another (ME−200) with a 
+preservative for metabolomics (Fig. 7b). Stool was the least consistent sample collected due 
+to the limited windows available for sampling during collection timeframes. DNA and RNA 
+were extracted from aliquots of the OMNIgene Gut (OMR−200) tubes for downstream 
+microbiome analysis. DNA yield ranged from 358.5 to 16,660 ng, RNA from 690 to 2010 ng 
+(Fig. 7c). Large variations in yield are attributable to variable stool mass collected between 
+kits. 
+Stool samples enable various biochemical, immune, and microbiome changes studies. 
+Previous metagenomic assays have found that shannon alpha diversity and richness during 
+long-duration missions to the ISS62. 
+Skin swabs 
+Body swabs were collected at all timepoints. Samples were collected by swabbing the body 
+region of interest for 30 seconds, then placing the swab in a sterile 2D matrix tube (Thermo 
+Scientific #3710) with Zymo DNA/RNA shield preservative. For the first two swab locations, 
+the oral and nasal cavity, the swab was placed directly on the body after removal from its 
+sterile packaging (dry-swab method; Fig. 8a). For the remaining body locations, the swab was 
+briefly dipped in nuclease-free, DNA/RNA-free water before proceeding (wet-swab method). 
+Eight distinct sites were swabbed with the wet-swab method: post-auricular, axillary vault, 
+volar forearm, occiput, umbilicus, gluteal crease, glabella, and the toe-web space (Fig. 8b). 
+The astronaut microbiome has previously been studied in the forehead, forearm, nasal, 
+armpit, navel, postauricular, and tongue body locations, and changes have been documented 
+during flight. Changes in alpha diversity and beta diversity were documented, as well as 
+shifts in microbial genera62. However, the impact of these changes on skin health and 
+immunological health are not well understood. 
+Fig. 8. Skin Collection Locations and Sample Types."
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_014,"Open in a new tab 
+a Dry swabs were collected from two body locations. b Wet swabs were collected from eight 
+body locations. c Swabs were collected from the deltoid region. Immediately after, 3- or 4-
+mm skin biopsies were collected from the same area and divided for histology and spatially 
+resolved transcriptomics. 
+Acquiring extensive swab samples from the crew skin allows for characterization of the 
+habitat environment, crew skin microbiome adaptations, and interactions with potential 
+human health adaptations resulting from spaceflight exposure. This is very relevant for crew 
+health, considering astronauts become more susceptible to infections during spaceflight 
+missions63, with the relationship between microbe-host interactions from spaceflight 
+exposure, which may be a causative factor of astronauts immune dysfunction, which is still 
+not well understood. 
+Skin Biopsies 
+A skin biopsy on the deltoid was obtained from the L-44 and R + 1 timepoint. Biopsies were 
+also collected in advance of a flight to ensure the biopsy site is fully healed before the flight 
+so there is no risk of complication. The wet-swab method was used to collect the skin 
+microbiome before the skin biopsy. The skin biopsies were 3–4 millimeters in diameter and 
+were collected for histology and spatially resolved transcriptomics (SRT) (Fig. 8c). One-third 
+of the sample was stored in formalin and kept at room temperature to perform histology. The 
+remaining two-thirds of the sample was stored in a cryovial and placed at -80 °C for SRT 
+(Fig. 8c). This is the first sample collected from astronauts for spatially resolved 
+transcriptomics. The skin is of high interest due to the inflammation-related cytokine markers 
+such as IL-12p40, IL-10, IL-17A, and IL-1810,17 and skin rash’s status as the most frequent 
+clinical symptom reported during spaceflight64."
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_015,"Environmental swabs and HEPA filter 
+Environmental swabs were collected in flight during the F1 and F2 timepoint. Additionally, 
+environmental swabs were collected from the flight simulation capsule at SpaceX 
+headquarters after days of crew training during the L-92 and L-44 timepoints. Environmental 
+swabs were collected using the wet-swab method. Ten environmental swabs were collected 
+per time point at the following locations in the capsule: an ambient air/control swab, the 
+execute button, the viewing dome, the side hatch mobility aid, the lid of the waste locker, the 
+head section of one of the seats, the commode panel, the right and left sides of the control 
+screen, and the g-meter button (Fig. 9a-d). Additionally, the spacecraft’s high-efficiency 
+particulate absorbing (HEPA) filter was acquired post-flight. This filter was cut into 127 
+rectangular pieces (1.2” x 1.6” x 4”) and stored at −20 °C. 
+Fig. 9. Capsule Swab Locations."
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_016,"Open in a new tab 
+a Swab locations, descriptions, and label IDs. b Interior view of the SpaceX Dragon 
+capsule. c View of the control panel located above the middle seats in the Dragon 
+capsule. d View of the cupola (viewing dome) region from the outside. The rim of the dome 
+was swabbed from the inside (ID 10). 
+Previous microbial profiling of spacecraft environments has revealed that equipment 
+sterilized on the ground becomes coated in microbial life in space due to interactions with 
+crew and the introduction of equipment that has not undergone sterilization65. Subsequent 
+microbial monitoring assays performed on the ISS have detected novel, spaceflight-specific 
+species on the ISS66. Once in space, surface microbes are subject to the unique microgravity 
+and radiation environment of flight, which will influence evolutionary trajectory. The 
+potential impact of this influence on pathogenesis is a concern for long-duration space 
+missions, especially given that changes in host-pathogen interactions may also be affected 
+during spaceflight67."
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_017,"Standardizing biospecimen collections across multiple missions will create 
+larger sample sets needed to draw these conclusions.
+
+Here, we establish the standard biospecimen sample collection and banking procedures for 
+the Space Omics and Medical Atlas (SOMA). A key goal of SOMA is to standardize 
+biospecimen collection and processing for spaceflight, to generate high-quality multi-omics 
+data across spaceflight investigations, and to enable follow-up experiments with viably frozen 
+cells and biobanked samples. This paper provides sample collection methods built for 
+standardized field collections across different crews and missions. We cover the decentralized 
+sample collection process from the Inspiration4 (I4) mission from the point of collection to 
+the preservation of samples for downstream biochemical and omics processing at our 
+centralized lab at Weill Cornell Medicine (WCM). These protocols can produce synchronized 
+datasets with enhanced statistical strength, amplifying our scientific findings from spaceflight 
+studies. Additionally, we showcase metrics related to sample collection outputs, references of 
+past astronaut sample collections in scientific publications, and suggestions to refine sample 
+collection for upcoming missions. In its inaugural use case, these samples were collected 
+from the I4 astronaut cohort and are currently in use for several other missions (Polaris 
+Dawn, Axiom-2), which will enable continued utilization for future crewed space missions."
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_018,"Results
+
+Biospecimen collection overview 
+We formulated and executed a sampling plan that spans a wide range of biospecimen 
+samples: venous blood, capillary dried blood spots (DBSs), saliva, urine, stool, skin swabs, 
+skin biopsies, and environmental swabs (Fig. 1a). The collection of various types of samples 
+covered the scope of previous assays on astronaut samples (Supplementary Table 1), but also 
+enabled newer omics technologies, such as spatially resolved, single-molecule, and single-
+cell assays. 
+Fig. 1. Biospecimen Samples and Collection Locations."
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_019,"Open in a new tab 
+a List of biospecimen samples collected over the course of the study. b Timepoints for each 
+biospecimen sample collection. “L-” denotes the number of days prior to launch. “R + ” 
+denotes the number of days after return to Earth. “FD” denotes which day of the flight a 
+sample was collected. c Location of each collection timepoint. 
+For the I4 mission, sample collection spanned three-time points pre-launch (L-92, L-44, L-3 
+days), three-time points during flight (Flight Day 1 (FD1), FD2, FD3), and four-time points 
+post-return (R + 1, R + 45, R + 82, R + 194 days). Venous blood, urine, stool, and skin 
+biopsies were collected during ground timepoints only, while capillary DBSs, saliva, and skin 
+swabs were collected both on the ground and during flight (Fig. 1b). Environmental swabs of 
+the Dragon capsule were collected pre-flight in the crew training capsule and during flight in 
+the spacecraft launched from Cape Canaveral (Fig. 1b). 
+Samples were collected across a variety of locations based on the crew’s training and travel 
+schedule. L-92 and L-44 were collected in Hawthorne, CA at SpaceX Headquarters, L-3 and 
+R + 1 were collected at Cape Canaveral, FL at a facility near the launch site. FD1, FD2, and 
+FD3 were collected inside the Dragon capsule while in orbit. R + 45 was collected at the crew"
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_020,"members’ individual locations (which spanned the US States NY, NJ, TN, and WA), R + 82 
+was collected at Weill Cornell Medicine, NY and R + 194 was collected at Baylor College of 
+Medicine, TX (Fig. 1c). All samples from ground timepoints were processed within 16 hours 
+of collection. All samples from the flight were processed immediately after retrieval from the 
+flight. 
+Samples were stored at −80 °C at each site immediately after processing and aliquoting 
+(processing steps are outlined below). All samples were shipped via FedEx using Overnight 
+Shipping to Weill Cornell Medicine for storage in the Cornell Aerospace Medicine Biobank 
+(CAMbank) within 1 week of collection on dry ice in styrofoam boxes and spent <2 days in 
+transit. No samples were shipped on a Thursday or Friday to avoid weekend shipping delays. 
+All samples arrived at Weill Cornell Medicine with dry-ice still in the packaging and samples 
+frozen. Samples were immediately transferred to −80 °C for long-term storage and 
+biobanking. Any exceptions to this process will be noted below. In total, we collected 2,911 
+sample aliquots, which were then processed in our central lab at Weill Cornell Medicine for 
+downstream assays (Supplementary Table 2). Some samples were processed immediately at 
+field laboratory facilities (Supplementary Data Fig. 1). DNA and RNA yields are also 
+reported below from collection kits (saliva and stool) after arrival at WCM. 
+Blood collection and derivatives 
+Blood was collected using a combination of venipuncture tubes to collect venous blood and 
+contact-activated lancets to collect capillary blood from the fingertip. Each crew member 
+provided blood samples, collected into one BD PAXgene blood RNA tube (bRNA), four BD 
+Vacutainer K2 EDTA tubes, two BD Vacutainer cell preparation tubes (CPTs), one Streck 
+cell-free DNA tube (cfDNA BCT), one BD Vacutainer serum separator tube (SST), and one 
+DBS card per time point. Tubes were transported from the collection site to the field 
+laboratory at room temperature. From these tubes, whole blood, plasma, PBMCs, serum, and 
+cell pellet samples were collected (Supplementary Table 3). Sample yields are reported 
+below. Samples were aliquoted for long-term storage and biobanking (Supplementary 
+Table 4). 
+bRNA tubes were collected in order to isolate total RNA using the PAXgene blood RNA kit 
+(Fig. 2a). Yield ranged from 3.04 to 14.04 µg/tube of total RNA across all samples, and the 
+RNA integrity number (RIN) ranged from 3.2 to 8.5 (mean: 6.95) (Fig. 2b). RNA was stored 
+at −80 °C after extraction. The collection of total RNA enables a variety of downstream RNA 
+profiling methods. It will allow comparative studies to prior RNA-sequencing performed on 
+astronauts, particularly snoRNA & lncRNA biomarkers analyzed from Space Shuttle era 
+blood25,26, mRNA & miRNA measured during the NASA Twin Study17,18, and whole blood 
+RNA arrays from the ISS27,28. Additionally, RNA yields are more than sufficient to perform 
+direct-RNA sequencing using Oxford Nanopore Technologies (ONT) platforms, which 
+require 500 ng of total RNA per library (Manufacturer’s protocol, ONT kit SQK-RNA002). 
+This enables the study of RNA modification changes during spaceflight to create 
+epitranscriptomic profiles for the first time in astronauts. 
+Fig. 2. bRNA and K2 EDTA Tubes."
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_021,"Open in a new tab 
+a One 2.5 mL bRNA tube was collected per crew member at each ground timepoint. b bRNA 
+tube total RNA yields per sample (μg) and RINs. c Four K2 EDTA tubes were collected per 
+member at each ground timepoint. One tube was used for a CBC, one tube was used to isolate 
+EVPs, and two tubes were used for isolation of PBMCs. d Plasma and EVP yields from the 
+“[2] EVPS” tube on Fig. 2c. e PBMC yields per mL from the “[3] PBMCs” tubes on Fig. 2c. 
+Four K2 EDTA tubes were drawn at each timepoint from each crew member (Fig. 2c). One 
+K2 EDTA tube was submitted to Quest Diagnostics to perform a complete blood count 
+(CBC, Quest Test Code: 6399). One tube was used to isolate extracellular vesicles and 
+particles (EVPs) for proteomic quantification (Fig. 3a). Total EVP quantities varied from 
+2.71-28.27 ug (Fig. 2d). Two K2 EDTA tubes were used to isolate PBMCs for single-cell 
+sequencing (10X Chromium Single Cell Multiome ATAC + Gene Expression and Chromium 
+Single Cell Immune Profiling workflows). After collection, a Ficoll separation was 
+performed to isolate PBMCs, which ranged from 340,000-975,000 cells per mL of blood 
+(Fig. 2e). One prior single-cell gene expression experiment, NASA Twin study, was 
+performed on astronauts, which found immune cell population specific gene expression 
+changes and a correlation with microRNA signatures11,18. 
+Fig. 3. Tube Processing Steps."
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_022,"Open in a new tab 
+Centrifuge (brown circles) and aliquoting (white and green boxes and circles) protocols 
+for a K2 EDTA tubes designated for EVP isolation b CPTs c cfDNA BCTs ans.d d SST. 
+Additional PBMCs, plasma, and serum were collected from CPTs (Fig. 4a), cfDNA BCTs 
+(Fig. 4d), SSTs (Fig. 4c), as well as red blood cell pellets. CPTs were spun and aliquoted 
+according to the manufacturer’s instructions (Fig. 3b). Plasma volume per tube ranged from 
+3000-14,000 uL per tube (Fig. 4d). Because of technical issues in the sample processing 
+procedure, three instances occurred where plasma retrieval from the CPT tubes was not 
+possible. Plasma can be used to validate or refute previous studies, including cytokine 
+panel10,29, exosomal RNA-seq25,26, extracellular vesicle microRNA30, and proteomic20,31–
+33results. PBMCs were also collected, aliquoted into 6 cryovials per CPT, and stored in liquid 
+nitrogen after slowly cooled in a Mr. Frosty to -80 °C. These can be used to follow-up on 
+previous studies on adaptive immunity, cell function, and immune dysregulation8,34–39. The 
+remaining red blood cell pellet mixtures from below the gel plug in each CPT Tube were 
+stored at −20 °C. 
+Fig. 4. CPT, cfDNA BCT, and SST Yields."
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_023,"Open in a new tab 
+a A spun CPT yields plasma, PBMCs, and a red blood cell pellet. PBMC from each tube 
+were divided into 6 cryovials and viably frozen. Plasma was aliquoted and the pellet was 
+frozen at −20C. b A spun cfDNA BCT yields plasma and a red blood cell pellet. Plasma was 
+purified with an additional spin (see Fig. 4a) then aliquoted. The pellet was frozen at 
+−20C. c A spun SST yields serum and a red blood cell pellet. Serum was aliquoted and the 
+pellet was frozen at −20C. d CPT plasma volumes per timepoint are reported. e cfDNA 
+(Streck) BCT plasma volumes per timepoint. fSST serum volumes per timepoint. An extra 
+tube was drawn for C004 at R + 45, resulting in a higher serum yield. 
+cfDNA BCT (Streck) tubes were collected to isolate high-quality cfDNA from plasma. 
+cfDNA BCTs were spun and aliquoted according to the manufacturer’s instructions (Fig. 3c). 
+The remaining cell pellet mixture was frozen at −20 °C. Plasma volume per timepoint ranged 
+from 1500-5000 uL (Fig. 4e). 500 uL aliquots were frozen at -80 °C. cfDNA extracted from 
+these tubes can be analyzed for fragment length, mitochondrial or nuclear origin, and cell 
+type or tissue of origin40–42."
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_024,"The SST was spun and aliquoted according to the manufacturer’s instructions (Fig. 3d). 
+Serum volume ranged from 2000-8000 uL per timepoint (Fig. 4f). Similar to plasma, serum 
+can be allocated for cytokine analysis and can also be used to perform comprehensive 
+metabolic panels, including one we used at Quest (CMP, Quest Test Code: 10231) for metrics 
+on alkaline phosphatase, calcium, glucose, potassium, and sodium, among other metabolic 
+markers. The remaining cell pellet mixture from each SST tube was stored at −20 °C. 
+In addition to venous blood, capillary blood was collected onto a DBS card using a contact-
+activated lancet pressed against the fingertip (Fig. 5a). Capillary blood was collected onto a 
+Whatman 903 Protein Saver DBS card to preserve nucleic acids and proteins. Each of the five 
+spots on the DBS card hold 75-80uL of capillary blood, however, the amount of capillary 
+blood collected across timepoints varied (Fig. 5b, c) according to how much blood could be 
+collected before the lancet-puncture closed. 
+Fig. 5. Dried Blood Spot (DBS) Collection Yields."
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_025,"Open in a new tab 
+a DBS cards were collected preflight, during flight, and postflight. There were five spots for 
+blood collection per card. b Blood collections varied in saturation level across blood spots 
+and timepoints. These were classified as “full”, “partial”, and occasionally “empty”. c DBS 
+card yields per blood spot, per timepoint, and per crew member. 
+Saliva collection 
+Saliva was collected at the L-92, L-44, L-3, FD1, FD2, FD3, R + 1, R + 45, and R + 82 
+timepoints using two methods. First, saliva was collected using the OMNIgene Oral Kit"
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_026,"(OME-505), which preserves nucleic acids (Fig. 6a) during the ground timepoints. From 
+these samples, DNA, RNA, and protein were extracted. DNA yield ranged from 28.1 to 
+3187.8 ng, RNA yield from 396.0 to 3544.2 ng (less the two samples had concentrations too 
+low for measurement), and protein concentration from 92.97 to 93.15 ng. 
+Fig. 6. Saliva Collections."
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_027,"Open in a new tab 
+a DNA, RNA, and protein yields from the OMNIgene Oral kits. b Volume of crude saliva 
+collected per timepoint. 
+Second, crude saliva (i.e., saliva with no preservative added) was collected into a 5 mL 
+DNase/RNase-free screw top tube during the ground and flight timepoints. Saliva volume 
+varied from 150 to 4000 uL per tube (Fig. 6b). Crude saliva was also collected during flight 
+(FD2 and FD3), in addition to the ground timepoints. 
+Saliva collections have been conducted throughout spaceflight studies for assessing the 
+immune state of crews, particularly in the context of viral reactivation. Previously identified 
+viruses that reactivate during spaceflight include Epstein–Barr, varicella-zoster, and 
+cytomegalovirus43. Responses to reactivation of these viruses can be asymptomatic, 
+debilitating, or even life-threatening, thus assessing these adaptations is beneficial in 
+understanding viral spaceflight activity as well as crew health. In addition to viral nucleic 
+acid quantification, numerous biochemical assays can also be performed, including"
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_028,"measurements of C-reactive protein (CRP), cortisol, dehydroepiandrosterone (DHEA), and 
+cytokines, among others10,43–46. 
+Urine collection 
+Urine was collected in sterile specimen cups at the L-92, L-44, L-3, R + 1, R + 45, and R + 82 
+timepoints. Specimen cups were collected 1-2 times per day. For preservation, urine was 
+aliquoted and stored at -80 °C. Half the urine had Zymo Urine Conditioning Buffer (UCB) 
+added before freezing, to preserve nucleic acids. Samples yielded 23–155.5 mL of crude urine 
+and 21 - 112 mL of UCB urine per specimen cup (Fig. 7a). Urine was split into 1 mL - 15 mL 
+aliquots before freezing at -80 °C. 
+Fig. 7. Urine and Stool Sample Collections."
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_029,"Open in a new tab 
+a Urine volumes per timepoint. Volumes are reported for both crude urine and urine 
+preserved with Zymo urine conditioning buffer (UCB). b Timepoints that stool tubes were 
+collected. “Gut” tubes are OMNIgene•GUT tubes for microbiome preservation. “Met” tubes 
+are OMNImet•GUT tubes for metabolome preservation. c Stool “Gut” tube DNA and RNA 
+extraction quantities. 
+A wide variety of assays can be performed on urine samples. Previous studies have included 
+viral reactivation43,46,47, urinary cortisol48,49, iron and magnesium measurements50–53, bone 
+status54–56, kidney stones54,55, proteomics11, telomere measurements57, and various biomarkers 
+and metabolites17,49,58–61. 
+Stool collection"
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_030,"Stool was collected at the L-92, L-44, R + 1, R + 45, and R + 82 timepoints. Stool samples 
+were stored into two collection containers at each timepoint, one DNA Genotek OMNIgene 
+Gut (OMR−200) kit with a preservative for metagenomics and another (ME−200) with a 
+preservative for metabolomics (Fig. 7b). Stool was the least consistent sample collected due 
+to the limited windows available for sampling during collection timeframes. DNA and RNA 
+were extracted from aliquots of the OMNIgene Gut (OMR−200) tubes for downstream 
+microbiome analysis. DNA yield ranged from 358.5 to 16,660 ng, RNA from 690 to 2010 ng 
+(Fig. 7c). Large variations in yield are attributable to variable stool mass collected between 
+kits. 
+Stool samples enable various biochemical, immune, and microbiome changes studies. 
+Previous metagenomic assays have found that shannon alpha diversity and richness during 
+long-duration missions to the ISS62. 
+Skin swabs 
+Body swabs were collected at all timepoints. Samples were collected by swabbing the body 
+region of interest for 30 seconds, then placing the swab in a sterile 2D matrix tube (Thermo 
+Scientific #3710) with Zymo DNA/RNA shield preservative. For the first two swab locations, 
+the oral and nasal cavity, the swab was placed directly on the body after removal from its 
+sterile packaging (dry-swab method; Fig. 8a). For the remaining body locations, the swab was 
+briefly dipped in nuclease-free, DNA/RNA-free water before proceeding (wet-swab method). 
+Eight distinct sites were swabbed with the wet-swab method: post-auricular, axillary vault, 
+volar forearm, occiput, umbilicus, gluteal crease, glabella, and the toe-web space (Fig. 8b). 
+The astronaut microbiome has previously been studied in the forehead, forearm, nasal, 
+armpit, navel, postauricular, and tongue body locations, and changes have been documented 
+during flight. Changes in alpha diversity and beta diversity were documented, as well as 
+shifts in microbial genera62. However, the impact of these changes on skin health and 
+immunological health are not well understood. 
+Fig. 8. Skin Collection Locations and Sample Types."
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_031,"Open in a new tab 
+a Dry swabs were collected from two body locations. b Wet swabs were collected from eight 
+body locations. c Swabs were collected from the deltoid region. Immediately after, 3- or 4-
+mm skin biopsies were collected from the same area and divided for histology and spatially 
+resolved transcriptomics. 
+Acquiring extensive swab samples from the crew skin allows for characterization of the 
+habitat environment, crew skin microbiome adaptations, and interactions with potential 
+human health adaptations resulting from spaceflight exposure. This is very relevant for crew 
+health, considering astronauts become more susceptible to infections during spaceflight 
+missions63, with the relationship between microbe-host interactions from spaceflight 
+exposure, which may be a causative factor of astronauts immune dysfunction, which is still 
+not well understood. 
+Skin Biopsies 
+A skin biopsy on the deltoid was obtained from the L-44 and R + 1 timepoint. Biopsies were 
+also collected in advance of a flight to ensure the biopsy site is fully healed before the flight 
+so there is no risk of complication. The wet-swab method was used to collect the skin 
+microbiome before the skin biopsy. The skin biopsies were 3–4 millimeters in diameter and 
+were collected for histology and spatially resolved transcriptomics (SRT) (Fig. 8c). One-third 
+of the sample was stored in formalin and kept at room temperature to perform histology. The 
+remaining two-thirds of the sample was stored in a cryovial and placed at -80 °C for SRT 
+(Fig. 8c). This is the first sample collected from astronauts for spatially resolved 
+transcriptomics. The skin is of high interest due to the inflammation-related cytokine markers 
+such as IL-12p40, IL-10, IL-17A, and IL-1810,17 and skin rash’s status as the most frequent 
+clinical symptom reported during spaceflight64."
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_032,"Environmental swabs and HEPA filter 
+Environmental swabs were collected in flight during the F1 and F2 timepoint. Additionally, 
+environmental swabs were collected from the flight simulation capsule at SpaceX 
+headquarters after days of crew training during the L-92 and L-44 timepoints. Environmental 
+swabs were collected using the wet-swab method. Ten environmental swabs were collected 
+per time point at the following locations in the capsule: an ambient air/control swab, the 
+execute button, the viewing dome, the side hatch mobility aid, the lid of the waste locker, the 
+head section of one of the seats, the commode panel, the right and left sides of the control 
+screen, and the g-meter button (Fig. 9a-d). Additionally, the spacecraft’s high-efficiency 
+particulate absorbing (HEPA) filter was acquired post-flight. This filter was cut into 127 
+rectangular pieces (1.2” x 1.6” x 4”) and stored at −20 °C. 
+Fig. 9. Capsule Swab Locations."
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_033,"Open in a new tab 
+a Swab locations, descriptions, and label IDs. b Interior view of the SpaceX Dragon 
+capsule. c View of the control panel located above the middle seats in the Dragon 
+capsule. d View of the cupola (viewing dome) region from the outside. The rim of the dome 
+was swabbed from the inside (ID 10). 
+Previous microbial profiling of spacecraft environments has revealed that equipment 
+sterilized on the ground becomes coated in microbial life in space due to interactions with 
+crew and the introduction of equipment that has not undergone sterilization65. Subsequent 
+microbial monitoring assays performed on the ISS have detected novel, spaceflight-specific 
+species on the ISS66. Once in space, surface microbes are subject to the unique microgravity 
+and radiation environment of flight, which will influence evolutionary trajectory. The 
+potential impact of this influence on pathogenesis is a concern for long-duration space 
+missions, especially given that changes in host-pathogen interactions may also be affected 
+during spaceflight67. 
+Discussion 
+We report here on biospecimen samples collected from the SpaceX I4 Mission, the most 
+comprehensive human biological specimen collection effort performed on an astronaut cohort 
+to date. The extensive archive of biospecimens included venous blood, dried blood spot 
+cards, saliva, urine, stool, microbiome body swabs, skin biopsies, and environmental capsule 
+swabs. The study objective was to establish a foundational set of methods for biospecimen 
+collection and banking on commercial spaceflight missions suitable for multi-omic and 
+molecular analysis. Biospecimens were collected to enable comprehensive, multi-omic 
+profiles, which can then be used to develop molecular catalogs with higher resolution of 
+human responses to spaceflight. Select, targeted measures in clinical labs (CLIA) were also 
+performed immediately after sample collection (CBC, CMP), and samples and viable cells 
+were preserved in a long-term Cornell Aerospace Medicine Biobank, such that additional 
+assays and measures can be conducted in the future. 
+Great care was put into the standardization of sample processing between field laboratories in 
+Hawthorne, Cape Canaveral, and Houston. Despite our best efforts to control for all 
+preanalytical variables68, there are some inconsistencies in sample processing that were 
+unavoidable during this mission. Of note, there was no access to cold stowage during flight, 
+causing all samples to be stowed at room temperature until they arrived back on Earth. Of the 
+three sample types collected during flight, two were stable at room temperature (skin/capsule 
+swabs stored in DNA/RNA shield and capillary blood collected on dried blood spot cards). 
+The third (saliva samples), were not stored in a preservative and, for this reason, will have a 
+distinct profile compared to other timepoints. This limits the context in which these samples 
+will be useful, but will still provide biological insights in more targeted biological studies. 
+We can imagine situations in the future where there will be tradeoffs between standardization 
+of sample collection with previous missions and mission-specific constraints influencing the 
+selection of biospecimen collection methods. 
+However, there are several reasons why rigorous biospecimen collection methods for 
+commercial and private spaceflight missions must be developed, which are scalable and 
+translational across populations, missions, and mission parameters. First, little is known about"
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_034,"the biological and clinical responses that occur in civilians during and after space travel. 
+While professional astronauts are generally young, healthy, and extensively trained, civilian 
+astronauts have been, and likely will be, far more heterogeneous. They will possess a variety 
+of phenotypes, including older ages, different health backgrounds, and greater medication 
+use, and may experience different medical conditions, risks, and comorbidities. Careful 
+molecular characterization will be beneficial for the development of appropriate baseline 
+metrics and countermeasures and, therefore, beneficial for the individual spaceflight 
+experience. In the future, such analyses may enable precision medicine applications aimed at 
+optimizing countermeasures for each individual astronaut who enters and returns safely from 
+space69,70. 
+Second, multi-omic studies inherently present a large number of measurements within a small 
+set of subjects. These high-dimensional datasets present numerous potential challenges with 
+regard to the amplification of noise, risk of overfitting, and false discoveries71. At all times, 
+scientists engaged in multi-omic analyses must take special care that true biological variance 
+is what has been measured. The introduction of experimental variance through the 
+progression from sample collection, transport, and storage, to sequencing and analysis can 
+introduce artifacts of variance that render the detection of true biological variance and 
+interpretation of results more difficult. For this reason, tight adherence to experimental 
+controls or annotation at every step of the experimental condition is crucial. Careful 
+annotation allows for the assignment of class variables in post hoc analysis. Among such 
+applications are the attempt to detect batch effects or determine the impact of variations in 
+temperature (collection, storage, or transport)72. 
+The necessary means to address experimental variance are longitudinal sampling and 
+specimen aliquoting. Longitudinal sampling (i.e. collecting numerous serial samples from 
+each test condition) from pre-flight, in-flight, and post-flight allows for greater statistical 
+power when assessing changes attributable to spaceflight. In addition, each sample collected 
+should be divided upon collection into multiple aliquots. This better assures that freeze-thaw 
+cycles can be avoided in the analysis stage, as freeze-thaw events can introduce considerable 
+experimental variance depending on the molecular class being measured. Maintaining all 
+samples at their optimal storage temperature at all times, typically -80 °C or lower (e.g. liquid 
+nitrogen for cells), is crucial73. Special attention must be given to how the collection and 
+storage methods in-flight vary in relation to the conditions on Earth. Spaceflight presents 
+considerable differences in the operating environment, where ground conditions are far easier 
+to control than flight. In practice, this may limit the types of samples that can be collected 
+during flight. 
+Third, rigorous methods must be developed and followed to pursue comparisons across 
+missions with varying design parameters. In this consideration, there is an argument for the 
+development of specimen collection, transport, storage, processing, analysis, and reporting 
+standards. At the same time, this must be balanced with the flexibility required for innovation 
+since standards can sometimes limit advancement in methodology. In the present study, 
+common methods were used for the I4 and the Polaris Dawn and Axiom-2 missions. 
+However, selected methods may require optimization for Polaris Dawn-like missions, to 
+increase the yields during sample processing and adapt to unique parameters imposed by the 
+anticipated spacewalk (extravehicular activity; EVA). Moreover, within standards or best 
+practices, unique research for each mission may require alteration of previously successful"
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_035,"methods. With these considerations in mind, we must balance methodology standardization 
+with advances in methodology options and mission-specific objectives. 
+As the commercial spaceflight sector gains momentum and more astronauts with different 
+health profiles and backgrounds have access to space, comprehensive data on the biological 
+impact of short-duration spaceflight is of paramount importance. Such data will further 
+expand our understanding and knowledge of how spaceflight affects human physiology, 
+microbial adaptations, and environmental biology. The use of integrative omics technologies 
+for civilian astronauts has revealed novel responses across genomics, proteomics, 
+metabolomics, microbiome, and transcriptomics measures74–83. Creating multi-omic datasets 
+from spaceflight studies on astronaut cohorts will further advance our understanding, inform 
+future mission planning, and help discover what appropriate countermeasures can be 
+developed to minimize future risk and enhance performance. 
+Validating sample collection methodologies initially in short-duration commercial spaceflight 
+is a key step for future human health research in long-duration and exploration-class missions 
+to the Moon and beyond. To help meet these challenges, we have established the SOMA 
+protocols, which detail standard multi-omic measures of astronaut health and protocols for 
+sample collection from astronaut cohorts. Although the all-civilian I4 crew pioneered the first 
+use of the SOMA protocols, the methodology outlined here is robust and generalizable, 
+making it applicable to future astronaut crews from any commercial mission provider (e.g., 
+SpaceX, Axiom Space, Sierra Space, Blue Origin) or space agencies (NASA, ESA, JAXA, 
+ROSCOSMOS). Furthermore, the SOMA banking, sequencing, and processing methods are a 
+springboard for continuing biospecimen analysis and expanding our knowledge of multi-omic 
+dynamics before, during, and after human spaceflight missions, providing a molecular 
+roadmap for crew health, medical biometrics, and possible countermeasures. 
+Methods 
+Venous blood draw 
+Venipuncture was performed on each subject using a BD Vacutainer® Safety-Lok™ blood 
+collection set (BD Biosciences, #367281) and a Vacutainer one-use holder (BD Biosciences, 
+364815). The puncture site was located near the cubital fossa and was sterilized with a BZK 
+antiseptic towelette (Dynarex, Reorder No. 1303). Blood was collected into 1 serum separator 
+tube (SST, BD Biosciences: #367987, Lot: #1158449, #1034773), 2 cell processing tubes 
+(CPT, BD Biosciences: #362753, Lot: #1133477, #1012161), 1 blood RNA tube (bRNA, 
+PAXgene: #762165, Lot: #1021333), 1 cell-free DNA BCT (cfDNA BCT, Streck: #230470, 
+Lot: #11530331), and 4 K2 EDTA blood collection tubes (BD Biosciences, #367844, Lot: 
+#0345756) per crew member per time point. For samples collected in Hawthorne, blood was 
+drawn at SpaceX headquarters, then immediately transported to USC for processing. Samples 
+collected at Cape Canaveral were processed on-site. 
+Blood tube processing 
+For processing, serum separator tubes (SST) were centrifuged at 1300x g for 10 minutes. 
+500uL aliquots of serum were aliquoted into 1 mL Matrix 2D Screw Tubes (ThermoFisher, 
+3741-WP1D-BR) and stored at -80 °C. SST tubes were recapped and stored at −20 °C to 
+preserve the red blood cell pellet."
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_036,"Cell processing tubes were centrifuged at 1800xg for 30 minutes. Plasma was aliquoted into 
+1 mL Matrix 2D Screw Tubes and stored at -80 °C. 5 mL of 2% FBS (ThermoFisher, 
+#26140079) in PBS (ThermoFisher, #10010023) was added to the CPT tube to resuspend 
+PBMCs. PBMC suspension was transferred to a clean 15 mL conical tube. The total volume 
+was brought to 15 mL with 2% FBS in PBS. The tube was centrifuged for 15 minutes at 
+300x g. Supernatant was discarded. PBMCs were resuspended 6 mL of 10% DMSO 
+(Millipore Sigma, #D4540-500mL) in FBS. 1 mL of PBMCs were moved to 6 cryogenic 
+vials (Corning, #8672). Cryovials were placed in a Mr. FrostyTM (ThermoFisher, #5100-0001) 
+and stored at -80 °C. CPTs were recapped and stored at −20 °C to preserve the red blood cell 
+pellet. There was one outlier to this sample collection, the R + 194 timepoint, where CPT 
+sodium citrate tubes were used (BD Biosciences, Cat no. 362760). 
+cfDNA BCTs were centrifuged at 300xg for 20 minutes. Plasma was transferred to a 15 mL 
+conical tube. Plasma was centrifuged 5000xg for 10 minutes. 500uL aliquots of plasma were 
+aliquoted into 1 mL Matrix 2D Screw Tubes and stored at -80 °C. cfDNA BCTs were 
+recapped and stored at −20 °C to preserve the red blood cell pellet. 
+PAXgene blood RNA tubes were processed according to the manufacturer’s instructions. 
+Briefly, tubes were left upright for a minimum of 2 hours before freezing at −20 °C. For RNA 
+extraction, tubes were thawed and processed with the PAXgene blood RNA kit (Qiagen, 
+#762164). 
+Extracellular Vesicles and Particles (EVPs) Isolation 
+One 4 mL K2 EDTA tube was shipped on ice overnight to WCM for processing. Blood was 
+centrifuged at 500x g for 10 minutes, then plasma was transferred to a new tube and 
+centrifuged at 3000 x g for 20 minutes, and the supernatant was collected and stored at -80 °C 
+for EVP isolation. Plasma volumes ranged between 0.6 - 1.7 ml. Plasma was later thawed for 
+downstream processing, when concentrations were measured. Plasma samples were thawed 
+on ice, and EVPs were isolated by sequential ultracentrifugation (Hoshino et al., 2020). 
+Samples were centrifuged at 12,000x g for 20 minutes to remove microvesicles, then EVPs 
+were collected by ultracentrifugation in a Beckman Coulter Optima XE or XPE 
+ultracentrifuge at 100,000x g for 70 minutes. EVPs were then washed in PBS and pelleted 
+again by ultracentrifugation at 100,000x g for 70 minutes. The final EVP pellet was 
+resuspended in PBS. 
+Dried blood spot (DBS) 
+Crew members warmed their hands and massaged their finger towards the fingertip to enrich 
+blood flow toward the puncture site. The puncture site was sterilized using a BZK antiseptic 
+towelette (Dynarex, Reorder No. 1303). Skin was punctured using a contact-activated lancet 
+(BD Biosciences, #366593) or a 21-gauge needle (BD Biosciences, #305167), depending on 
+crew member preference. Capillary blood was collected onto the Whatman 903 Protein Saver 
+DBS cards (Cytiva, #10534612). Blood was transferred by touching only the blood droplet to 
+the surface of the DBS card. DBS cards were stored at room temperature with a desiccant 
+pack (Cytiva, #10548239). 
+Saliva"
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_037,"To collect crude saliva, crew members uncapped and spit into a sterile, PCR-clean, 5 mL 
+screw-cap tube (Eppendorf, 30122330). Crew spit repeatedly until at least 1 mL was 
+collected. Saliva was transported to a sterile flow hood and separated into 500uL aliquots. 
+Aliquots were frozen at -80 °C. To collect preserved saliva, crew members used the 
+OMNIgene ORAL kit (OME-505). Crew members spit into the kit’s tube until they reached 
+the fill line. The tube was re-capped, which released the preservative liquid. Tubes were 
+inverted to mix the saliva and preservative before being placed at −20 °C for storage. After all 
+timepoints were collected, DNA, RNA, and protein were extracted using the AllPrep 
+DNA/RNA/Protein kit (Qiagen, #47054). Sample concentrations were measured with Qubit 
+high sensitivity dsDNA and RNA platform. Proteins were quantified with the Pierce™ Rapid 
+Gold BCA Protein Assay Kit (Thermo Scientific, #A53225) on Promega GloMax Plate 
+Reader. 
+Urine 
+Crew members urinated into sterile specimen containers (Thermo Scientific, #13-711-56). 
+The container was stored at 4 C until it was prepared for long-term storage. To prepare urine 
+samples for long-term storage, urine was aliquoted into 1 mL, 15 mL, and 50 mL tubes. Half 
+of the urine was immediately placed at −80 °C. The other half had urine conditioning buffer 
+(Zymo, #D3061-1-140) added to the sample before placing in the -80 °C freezer. 
+Stool collection 
+Crew members isolated a stool sample using a paper toilet accessory (DNA Genotek, OM-
+AC1). Stool was transferred into and OMNIgene•GUT tube (DNAgenotek, OMR−200) and 
+an OMNImet•GUT tube (DNA Genotek, ME−200). Tubes were placed at -80 °C for long-
+term storage. For nucleic acid extraction, 200uL of each tube was allocated for DNA 
+extraction with the QIAGEN PowerFecal Pro kit and 200uL was allocated to RNA extraction 
+with the QIAGEN PowerViral kit. The remaining sample was split into 500uL aliquots and 
+re-stored at -80 °C. 
+Swab collection 
+Crew members put on gloves and remove a sterile DNA/RNA swab (Isohelix, SK-4S) from 
+its packaging. For collection of the postauricular, axillary vault, volar forearm, occiput, 
+umbilicus, gluteal crease, glabella, toe web space, and capsule environment regions, swabs 
+were dipped in nuclease-free water (this step was skipped for oral and nasal swabs) for 
+ground collections. For in-flight collections, HFactor hydrogen infused water was used in 
+place of nuclease-free water. Each body location was swabbed for 30 seconds, using both 
+sides of the swab. Swabs were then placed in 1 mL Matrix 2D Screw Tubes containing 400uL 
+of DNA/RNA Shield (Zymo). The tip of the swab was broken off so that only the swab tip 
+was stored in the Matrix 2D Screw Tube. Tubes were stored at 4 C. 
+Skin biopsies 
+Skin biopsies were performed on the deltoid region of the arm. Each site was prepared by 
+application of ChloraPrep and anesthesia was induced with administration of 1% lidocaine 
+with 1:100,000 epinephrine. A trephine punch was used to remove a 3- or 4-mm diameter 
+piece of skin. The resected piece was cut into approximately 1/3 and 2/3 sections. The smaller"
+Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA),Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)_038,"piece was added to a formalin-filled specimen jar. The larger piece was placed in a cryovial 
+and stored at -80 °C. Surgical defects were closed with 1 or 2 5-0 or 4-0 nylon sutures. 
+HEPA filter 
+HEPA Filter was taken apart and sectioned under a chemical hood to avoid contamination. 
+The filter contained two parts, an activated carbon component and a HEPA filter. The 
+activated carbon component was discarded and the filter was sectioned using a sterile blade. 
+Sections were placed in individual specimen containers and stored at −20 °C."
+Designing a Novel Monitoring Approach for the Effects of Spaceflight on Liver Function and Metabolism,Designing a Novel Monitoring Approach for the Effects of Spaceflight on Liver Function and Metabolism_000,"Spaceflight alters multiple physiological systems, including liver function. This study develops a 
+monitoring framework using transcriptomics, metabolomics, and serum biomarkers to track 
+hepatic stress in astronauts.
+
+AST and ALT levels were significantly elevated in flight-exposed subjects, indicating hepatic 
+stress.
+
+Serum metabolomics showed increased triglycerides, decreased phospholipids, and altered 
+lipid metabolism.
+
+Alanine aminotransferase and aspartate aminotransferase identified as potential biomarkers of 
+liver dysfunction.
+
+Provides a framework for monitoring liver function during space missions.
+
+Identified biomarkers can guide early interventions for astronaut hepatic health."
+Dietary countermeasure mitigates simulated spaceflight-induced osteopenia in mice (PMC7162976) PMC+2PubMed+2,Dietary countermeasure mitigates simulated spaceflight-induced osteopenia in mice (PMC7162976) PMC+2PubMed+2_000,"(summary) 
+●​ Spaceflight involves both microgravity and ionizing radiation, both of which negatively 
+impact skeletal health. PubMed+1 
+●​ Earlier work showed that dried plum (DP) diet protects against radiation-induced bone 
+loss. The current study tested whether DP could mitigate bone loss under a simulated 
+spaceflight model combining hindlimb unloading (as microgravity analog) plus radiation. 
+PubMed+1 
+●​ They assessed bone microarchitecture, mechanical properties, and osteoprogenitor 
+function under different diet and treatment groups. PubMed+1 
+●​ They found that the DP diet prevented most of the declines caused by either hindlimb 
+unloading alone or the full simulated spaceflight. PubMed+1 
+●​ Also, DP diet protected osteoprogenitors from functional impairment due to simulated 
+microgravity. PubMed 
+●​ The authors suggest that DP supplementation might be effective as a countermeasure 
+against spaceflight-induced skeletal deficits. PubMed 
+Key Results 
+●​ In mice subjected to hindlimb unloading (HU) or HU + ionizing radiation (IR), the control 
+diet groups exhibited declines in bone microarchitecture (e.g. bone volume fraction, 
+trabecular thickness) and mechanical strength. PubMed+1 
+●​ In contrast, mice on DP diet showed attenuated or prevented reductions in many of 
+these parameters: the DP diet “was effective at preventing most decrements in bone 
+micro-architectural and mechanical properties” due to HU or HU+IR. PubMed+1 
+●​ Osteoprogenitor cultures (bone marrow-derived) from DP-fed mice exposed to HU 
+retained better osteoblastic differentiation and function relative to controls. PubMed+1 
+Conclusion / Implication 
+●​ The DP diet acts as an effective countermeasure in a combined simulated spaceflight 
+model (microgravity analog + radiation) to mitigate osteopenia in mice. PubMed+1 
+●​ Because DP is a dietary approach, it has advantages of lower mass, lower complexity, 
+and potential ease of implementation compared to pharmaceutical or mechanical 
+interventions. PMC+1"
+Dietary countermeasure mitigates simulated spaceflight-induced osteopenia in mice (PMC7162976) PMC+2PubMed+2,Dietary countermeasure mitigates simulated spaceflight-induced osteopenia in mice (PMC7162976) PMC+2PubMed+2_001,"●​ The authors propose that DP supplementation is a promising nutritional countermeasure 
+for skeletal health in astronauts, though further studies (e.g. in real microgravity, dose 
+optimization, mechanistic dissection) are warranted.
+
+/ Implication 
+●​ The DP diet acts as an effective countermeasure in a combined simulated spaceflight 
+model (microgravity analog + radiation) to mitigate osteopenia in mice. PubMed+1 
+●​ Because DP is a dietary approach, it has advantages of lower mass, lower complexity, 
+and potential ease of implementation compared to pharmaceutical or mechanical 
+interventions. PMC+1
+
+●​ The authors propose that DP supplementation is a promising nutritional countermeasure 
+for skeletal health in astronauts, though further studies (e.g. in real microgravity, dose 
+optimization, mechanistic dissection) are warranted."
+Epigenomic regulators elongator complex subunit 2 and methyltransferase 1 differentially condition the ,Epigenomic regulators elongator complex subunit 2 and methyltransferase 1 differentially condition the _000,"Investigates the roles of two epigenomic regulators (ELP2 and METH1 or similar 
+methyltransferase) in Arabidopsisresponses to spaceflight; uses mutants, spaceflight or 
+simulated conditions, and transcriptomic/epigenomic profiling.
+
+Loss or alteration of these regulators changed the transcriptional response to spaceflight, with 
+distinct gene sets dysregulated related to stress, development, and epigenetic marks; ELP2 and 
+the methyltransferase had partly overlapping but also distinct influences.
+
+Epigenomic regulators modulate plant transcriptional responses to spaceflight and may be 
+crucial for adaptive plasticity; targeting epigenetic pathways could help design plants optimized 
+for space agriculture."
+Evaluation of Rodent Spaceflight in the NASA Animal Enclosure Module for an Extended Operational Period,Evaluation of Rodent Spaceflight in the NASA Animal Enclosure Module for an Extended Operational Period_000,"The National Aeronautics and Space Administration Animal Enclosure Module (AEM) was 
+developed as a self-contained rodent habitat for shuttle flight missions that provides inhabitants 
+with living space, food, water, ventilation, and lighting. This study reports whether, after minimal 
+hardware modification, the AEM could support an extended term up to 35 days for Sprague-
+Dawley rats and C57BL/6 female mice for use on the International Space Station. Success was 
+evaluated based on comparison of AEM housed animals to that of vivarium housed and to 
+normal biological ranges through various measures of animal health and well-being, including 
+animal health evaluations, animal growth and body masses, organ masses, rodent food bar 
+consumption, water consumption, and analysis of blood contents. The results of this study 
+confirmed that the AEMs could support 12 adult female C57BL/6 mice for up to 35 days with 
+self-contained RFB and water, and the AEMs could also support 5 adult male Sprague-Dawley 
+rats for 35 days with external replenishment of diet and water. This study has demonstrated the 
+capability and flexibility of the AEM to operate for up to 35 days with minor hardware 
+modification. Therefore, with modifications, it is possible to utilize this hardware on the 
+International Space Station or other operational platforms to extend the space life science 
+research use of mice and rats."
+Evaluation of Rodent Spaceflight in the NASA Animal Enclosure Module for an Extended Operational Period,Evaluation of Rodent Spaceflight in the NASA Animal Enclosure Module for an Extended Operational Period_001,"Rodent Health and Well-being: The study assessed various measures of animal health and 
+well-being, including animal health evaluations, animal growth and body masses, organ 
+masses, rodent food bar consumption, water consumption, and analysis of blood contents.
+
+Hardware Performance: The AEMs successfully supported 12 adult female C57BL/6 mice for up 
+to 35 days with self-contained RFB and water, and 5 adult male Sprague-Dawley rats for 35 
+days with external replenishment of diet and water.
+
+Extended Operational Capability: The AEM demonstrated the capability and flexibility to operate 
+for up to 35 days with minor hardware modification.
+
+Implications for Space Research: With modifications, the AEM can be utilized on the 
+International Space Station or other operational platforms to extend the space life science 
+research use of mice and rats."
+Gravity Attenuates the Transcriptomic Response to Spaceflight in the Optic Nerve and Retina” (Kremsky et al,Gravity Attenuates the Transcriptomic Response to Spaceflight in the Optic Nerve and Retina” (Kremsky et al_000,"(summary) 
+●​ Eye and optic nerve (retina + optic nerve) pathology is a known risk in space missions 
+(e.g. Spaceflight Associated Neuro-Ocular Syndrome, SANS). PubMed+1 
+●​ Microgravity (0 G) on ISS is hypothesized to drive transcriptomic (gene expression) 
+changes in ocular tissues that contribute to oxidative stress, inflammation, apoptosis, 
+and lipid metabolic stress. PubMed+1 
+●​ The authors used mice flown on the ISS under different gravity levels (0 G, 0.33 G, 0.67 
+G, 1 G via centrifugation) and then harvested optic nerve and retina tissues for RNA 
+sequencing (RNA-seq). PubMed+1 
+●​ They observed that microgravity induced substantial differential gene expression in 
+retina and optic nerve consistent with stress, but that artificial gravity attenuates 
+(reduces) this transcriptomic response, in a dose-dependent manner (i.e. stronger 
+mitigation at higher artificial gravity). PubMed+2PMC+2 
+●​ They propose that artificial gravity could be a viable countermeasure to protect ocular 
+tissues from spaceflight-induced transcriptomic dysregulation. PubMed+1"
+Gravity Attenuates the Transcriptomic Response to Spaceflight in the Optic Nerve and Retina” (Kremsky et al,Gravity Attenuates the Transcriptomic Response to Spaceflight in the Optic Nerve and Retina” (Kremsky et al_001,"Results (key findings) 
+From what’s available in the abstract and supplementary descriptions: 
+●​ Under 0 G (microgravity), many genes in the optic nerve and retina were differentially 
+expressed compared to ground controls. These DEGs (differentially expressed genes) 
+match pathways involved in oxidative stress, inflammation, apoptosis, and lipid 
+metabolism. PubMed+2Faculty Experts - Loma Linda University+2 
+●​ Application of artificial gravity (AG) onboard the ISS mitigated those transcriptomic 
+changes. The mitigation was dose-dependent: higher artificial gravity (closer to 1 G) 
+produced transcriptomic profiles more similar to ground control (i.e. fewer changes) than 
+lower AG. PubMed+2PMC+2 
+●​ At 1 G artificial gravity, the transcriptome in the optic nerve / retina was close to that of 
+the ground control, meaning many gene expression changes induced by 0 G were 
+dampened or reversed. PubMed+1 
+●​ The degree of attenuation suggests that even partial gravity (0.33 G or 0.67 G) has 
+protective effects, though not as full as 1 G. Faculty Experts - Loma Linda University+1"
+Gravity Attenuates the Transcriptomic Response to Spaceflight in the Optic Nerve and Retina” (Kremsky et al,Gravity Attenuates the Transcriptomic Response to Spaceflight in the Optic Nerve and Retina” (Kremsky et al_002,"Conclusion / Take-Home Message 
+●​ Artificial gravity, applied via centrifugation aboard the ISS, attenuates the 
+transcriptomic response (i.e. the gene expression changes) to microgravity in the optic 
+nerve and retina. PMC+2PubMed+2 
+●​ The mitigation effect is dose-dependent — nearer to Earth gravity (1 G) gives stronger 
+protection, though even partial gravity shows benefit. PubMed+2Faculty Experts - Loma 
+Linda University+2 
+●​ Therefore, artificial gravity is a promising countermeasure to reduce 
+spaceflight-induced molecular stress in ocular tissues, potentially ameliorating risks of 
+SANS and related damage. PubMed+1 
+●​ The study supports the idea that microgravity is a strong driver of adverse molecular 
+changes in ocular tissues, and that replicating gravity (even partially) can suppress those 
+adverse changes. MDPI+3PubMed+3Faculty Experts - Loma Linda University+3"
+Gravity Attenuates the Transcriptomic Response to Spaceflight in the Optic Nerve and Retina” (Kremsky et al,Gravity Attenuates the Transcriptomic Response to Spaceflight in the Optic Nerve and Retina” (Kremsky et al_003,"(key findings) 
+From what’s available in the abstract and supplementary descriptions: 
+●​ Under 0 G (microgravity), many genes in the optic nerve and retina were differentially 
+expressed compared to ground controls. These DEGs (differentially expressed genes) 
+match pathways involved in oxidative stress, inflammation, apoptosis, and lipid 
+metabolism. PubMed+2Faculty Experts - Loma Linda University+2 
+●​ Application of artificial gravity (AG) onboard the ISS mitigated those transcriptomic 
+changes. The mitigation was dose-dependent: higher artificial gravity (closer to 1 G) 
+produced transcriptomic profiles more similar to ground control (i.e. fewer changes) than 
+lower AG. PubMed+2PMC+2 
+●​ At 1 G artificial gravity, the transcriptome in the optic nerve / retina was close to that of 
+the ground control, meaning many gene expression changes induced by 0 G were 
+dampened or reversed. PubMed+1 
+●​ The degree of attenuation suggests that even partial gravity (0.33 G or 0.67 G) has 
+protective effects, though not as full as 1 G. Faculty Experts - Loma Linda University+1"
+Gravity Attenuates the Transcriptomic Response to Spaceflight in the Optic Nerve and Retina” (Kremsky et al,Gravity Attenuates the Transcriptomic Response to Spaceflight in the Optic Nerve and Retina” (Kremsky et al_004,"/ Take-Home Message 
+●​ Artificial gravity, applied via centrifugation aboard the ISS, attenuates the 
+transcriptomic response (i.e. the gene expression changes) to microgravity in the optic 
+nerve and retina. PMC+2PubMed+2 
+●​ The mitigation effect is dose-dependent — nearer to Earth gravity (1 G) gives stronger 
+protection, though even partial gravity shows benefit. PubMed+2Faculty Experts - Loma 
+Linda University+2 
+●​ Therefore, artificial gravity is a promising countermeasure to reduce 
+spaceflight-induced molecular stress in ocular tissues, potentially ameliorating risks of 
+SANS and related damage. PubMed+1 
+●​ The study supports the idea that microgravity is a strong driver of adverse molecular 
+changes in ocular tissues, and that replicating gravity (even partially) can suppress those 
+adverse changes. MDPI+3PubMed+3Faculty Experts - Loma Linda University+3"
+HSFA2 Functions in the Physiological Adaptation of Undifferentiated Plant Cells to Spaceflight,HSFA2 Functions in the Physiological Adaptation of Undifferentiated Plant Cells to Spaceflight_000,"Study of heat shock transcription factor HSFA2 in undifferentiated Arabidopsis cells under 
+spaceflight/simulated microgravity, examining its regulatory role in stress responses and 
+cell survival.
+
+HSFA2 mutants or knockdowns exhibited altered expression of heat-shock and stress 
+genes, reduced capacity to manage proteotoxic or oxidative stress under microgravity 
+simulations, and decreased survival metrics versus wild type.
+
+HSFA2 plays a role in enabling undifferentiated plant cells to cope with spaceflight-
+associated stresses (notably proteotoxic and oxidative stress), making it an important 
+regulator for plant adaptation in space environments."
+Identified biomarkers can aid in monitoring and developing countermeasures for dermatological issues in,Identified biomarkers can aid in monitoring and developing countermeasures for dermatological issues in_000,"This is an author correction to the previously published article ""To boldly go where no 
+microRNAs have gone before: spaceflight impact on risk for small-for-gestational-age infants"" in 
+Communications Biology. The correction addresses errors in the original publication.
+
+Correction Details: The correction rectifies inaccuracies in the reported data and analyses from 
+the original study.
+
+Impact on Findings: The corrected information does not alter the overall conclusions of the 
+original study but ensures the accuracy of the reported data."
+Immunization induces inflammation in the mouse heart during spaceflight(PMC11892206) PubMed+1,Immunization induces inflammation in the mouse heart during spaceflight(PMC11892206) PubMed+1_000,"/ Aim (summary) 
+●​ The study considers the interaction of immune challenges 
+(vaccination/immunization) and the spaceflight environment: specifically, whether 
+immunization aboard the International Space Station (ISS) heightens cardiac 
+inflammation. PubMed+1 
+●​ Mice were immunized with tetanus toxoid + CpG before and during flight; transcriptomic 
+profiling of heart tissue (versus controls) was used to assess inflammatory responses. 
+PubMed+1 
+Key Results 
+●​ In flight-immunized mice (versus flight controls), many transcripts associated with 
+pro-inflammatory signalingwere upregulated (e.g. NF-κB signaling, cytokines IFNγ, 
+IL-17, IL-6). PubMed 
+●​ Enrichment analyses (GO, KEGG) flagged immune response, inflammation, Toll-like 
+receptor pathways, and cytoskeletal / oxidative stress–related transcripts. PubMed+1 
+●​ Genes encoding Toll-like receptors (e.g. TLR7, TLR8, TLR13) were induced in hearts of 
+immunized mice during spaceflight. PubMed+1 
+●​ The data imply that immunization in space increases inflammatory burden on cardiac 
+tissue beyond baseline spaceflight stress. PubMed 
+Conclusion / Implication 
+●​ Vaccination/immunization in the microgravity environment can elicit heightened cardiac 
+inflammation, suggesting that the immune stressor and spaceflight stress are additive 
+or synergistic. PubMed+1 
+●​ This carries caution: countermeasures (like vaccinations) that are necessary for crew 
+health could have unintended interactions with spaceflight stress, especially in sensitive 
+organs (e.g. heart). 
+●​ Future planning must consider immune challenges as stressors, and protective 
+strategies (anti-inflammatory, antioxidant, monitoring) may be needed when immunizing 
+in space."
+Immunization induces inflammation in the mouse heart during spaceflight(PMC11892206) PubMed+1,Immunization induces inflammation in the mouse heart during spaceflight(PMC11892206) PubMed+1_001,"/ Implication 
+●​ Vaccination/immunization in the microgravity environment can elicit heightened cardiac 
+inflammation, suggesting that the immune stressor and spaceflight stress are additive 
+or synergistic. PubMed+1 
+●​ This carries caution: countermeasures (like vaccinations) that are necessary for crew 
+health could have unintended interactions with spaceflight stress, especially in sensitive 
+organs (e.g. heart). 
+●​ Future planning must consider immune challenges as stressors, and protective 
+strategies (anti-inflammatory, antioxidant, monitoring) may be needed when immunizing 
+in space."
+Immunological and hematological outcomes following protracted low dose,Immunological and hematological outcomes following protracted low dose_000,"The study examines immune and blood cell outcomes after prolonged low dose/low dose-
+rate radiation exposure combined with simulated microgravity (hindlimb unloading), 
+evaluating hematology, immune cell populations, and functional readouts.
+
+Combined exposures altered leukocyte distributions, produced subtle functional immune 
+deficits, and impacted hematopoiesis markers in a dose- and time-dependent manner; 
+microgravity plus radiation often produced additive or synergistic effects.
+
+Chronic low-dose radiation plus simulated microgravity can lead to persistent 
+hematological and immunological changes relevant to deep space missions; these 
+interactions should inform risk assessment and countermeasure design."
+Implications for Spacecraft Environments,Implications for Spacecraft Environments_000,"The ISS rodent habitat has provided crucial insights into the impact of spaceflight on mammals, 
+inducing symptoms characteristic of liver disease, insulin resistance, osteopenia, and myopathy. 
+Although these physiological responses can involve the microbiome on Earth, host-microbiota 
+interactions during spaceflight are still being elucidated. We explore murine gut microbiota and 
+host gene expression in the colon and liver after 29 and 56 days of spaceflight using multiomics. 
+Metagenomics revealed significant changes in 44 microbiome species, including relative 
+reductions in bile acid and butyrate metabolizing bacteria like Extibacter muris and 
+Dysosmobacter welbionis. Functional prediction indicates over-representation of fatty acid and 
+bile acid metabolism, extracellular matrix interactions, and antibiotic resistance genes. Host 
+gene expression described corresponding changes to bile acid and energy metabolism, and 
+immune suppression. These changes imply that interactions at the host-gut microbiome 
+interface contribute to spaceflight pathology and that these interactions might critically influence 
+human health and long-duration spaceflight feasibility."
+Implications for Spacecraft Environments,Implications for Spacecraft Environments_001,"Microbial Alterations: Significant changes in 44 microbiome species, including reductions in bile 
+acid and butyrate metabolizing bacteria like Extibacter muris and Dysosmobacter welbionis.
+
+Functional Predictions: Over-representation of pathways related to fatty acid and bile acid 
+metabolism, extracellular matrix interactions, and antibiotic resistance genes.
+
+Host Gene Expression: Corresponding changes in bile acid and energy metabolism, and 
+immune suppression observed in the colon and liver.
+
+Microbiome-Host Interactions: Spaceflight-induced alterations in gut microbiota and host gene 
+expression contribute to observed physiological changes.
+
+Implications for Space Health: Understanding these interactions is crucial for assessing human 
+health risks and developing countermeasures for long-duration spaceflight."
+Metabolic model predictions enable targeted microbiome manipulation through precision prebiotics (PMC10846184),Metabolic model predictions enable targeted microbiome manipulation through precision prebiotics (PMC10846184)_000,"(summary) 
+●​ Microbiome-based therapies often lack precision: how to selectively boost beneficial 
+resident microbes is challenging. This study proposes a metabolic modeling pipeline to 
+design precision prebiotics that selectively promote growth of target beneficial 
+microbes. PMC 
+●​ They applied this in a minimal microbial community model of Caenorhabditis elegans 
+(host) with a beneficial microbe Pseudomonas lurida and a persistent colonizer 
+Ochrobactrum vermis. PMC+1 
+●​ They predicted candidate prebiotic compounds (e.g. L-serine, L-threonine, D-mannitol, 
+γ-aminobutyric acid) and experimentally tested them both in vitro and in vivo. PMC 
+●​ Four predicted compounds were confirmed to specifically increase the abundance of the 
+beneficial microbe P. lurida. PMC 
+●​ The authors conclude that metabolic modeling is a powerful tool for rational microbiome 
+engineering, enabling precision prebiotic interventions. PubMed+1 
+Key Results 
+●​ The metabolic modeling framework identified a set of metabolites predicted to advantage 
+the beneficial microbe relative to others in the minimal community. PMC+2bioRxiv+2 
+●​ In culture, adding these predicted prebiotics indeed boosted P. lurida growth relative to 
+controls. PMC 
+●​ In C. elegans hosts colonized with both microbes, feeding with these compounds 
+increased P. lurida abundance selectively, confirming in vivo effectiveness. PMC 
+●​ The modeling approach enabled targeting of resident microbial composition rather than 
+broad-spectrum modulation. PubMed+1 
+Conclusion / Implication 
+●​ Constraint-based metabolic modeling can be used to design precision prebiotics that 
+selectively enhance beneficial microbes in a microbiome. PMC+2PubMed+2 
+●​ This offers a promising method to manipulate microbial communities more precisely and 
+predictably than broad probiotic or dietary interventions. PubMed+1 
+●​ For spaceflight or analog settings, this approach could help support beneficial 
+microbiome profiles (e.g. gut health, immune support) with tailored nutritional 
+supplements."
+Metabolic model predictions enable targeted microbiome manipulation through precision prebiotics (PMC10846184),Metabolic model predictions enable targeted microbiome manipulation through precision prebiotics (PMC10846184)_001,"●​ The study demonstrates proof-of-concept, but more complex microbiomes (human, 
+multi-species) must be tested to validate scalability and robustness.
+
+/ Implication 
+●​ Constraint-based metabolic modeling can be used to design precision prebiotics that 
+selectively enhance beneficial microbes in a microbiome. PMC+2PubMed+2 
+●​ This offers a promising method to manipulate microbial communities more precisely and 
+predictably than broad probiotic or dietary interventions. PubMed+1 
+●​ For spaceflight or analog settings, this approach could help support beneficial 
+microbiome profiles (e.g. gut health, immune support) with tailored nutritional 
+supplements.
+
+●​ The study demonstrates proof-of-concept, but more complex microbiomes (human, 
+multi-species) must be tested to validate scalability and robustness."
+Mitigation and use of biofilms in space for the benefit of human space exploration (PMC9843197) ResearchGate+3PMC+3ResearchGate+3,Mitigation and use of biofilms in space for the benefit of human space exploration (PMC9843197) ResearchGate+3PMC+3ResearchGate+3_000,"/ Aim (summary) 
+●​ Biofilms are ubiquitous in space habitats (on hardware surfaces, water systems, etc.). 
+This paper reviews both the challenges posed by biofilms (corrosion, contamination, 
+microbial resistance) and opportunities to harness biofilmsbeneficially (e.g. for 
+bioprocessing, life support). ScienceDirect+3PMC+3ResearchGate+3 
+●​ The authors aim to survey current knowledge of biofilm behavior in microgravity, 
+methodologies to mitigate harmful effects, and strategies to exploit biofilms 
+advantageously. ResearchGate+2NASA Technical Reports Server+2 
+Key Themes / Findings 
+●​ In spacecraft environments (e.g. ISS), biofilms have been observed on multiple 
+hardware surfaces, water recovery systems, and life support modules. 
+PMC+3ResearchGate+3NASA Technical Reports Server+3 
+●​ Biofilm formation and phenotype can change under microgravity: altered growth rates, 
+increased resistance to antimicrobials, shifts in community composition. 
+ResearchGate+2PMC+2 
+●​ Mitigation strategies include antimicrobial coatings, biocides, mechanical cleaning, 
+control of flow and fluid shear, localized sterilization, and monitoring. NASA Technical 
+Reports Server+3ScienceDirect+3ResearchGate+3 
+●​ On the beneficial side, biofilms may serve in bioreactors, waste treatment, biomaterial 
+formation, and microbial fuel cells, especially when engineered and controlled. 
+PMC+2NASA Technical Reports Server+2 
+●​ The review points out gaps: limited data from deep-space missions, uncertainties in 
+scaling and control, and need for better predictive models. PMC+2ResearchGate+2 
+Conclusion / Implication 
+●​ Biofilms are a dual-edged factor in space exploration: they pose risks of corrosion, 
+contamination, microbial resistance, but also present opportunities for functional 
+use if properly managed. PMC+2NASA Technical Reports Server+2 
+●​ Effective countermeasures must integrate prevention, monitoring, mitigation, and 
+controlled harnessing of biofilms in designed systems. 
+●​ Future research is needed to understand biofilm dynamics under space conditions, 
+optimize mitigation vs. beneficial use tradeoffs, and develop resilient biofilm systems for 
+biotechnological applications."
+Mitigation and use of biofilms in space for the benefit of human space exploration (PMC9843197) ResearchGate+3PMC+3ResearchGate+3,Mitigation and use of biofilms in space for the benefit of human space exploration (PMC9843197) ResearchGate+3PMC+3ResearchGate+3_001,"/ Implication 
+●​ Biofilms are a dual-edged factor in space exploration: they pose risks of corrosion, 
+contamination, microbial resistance, but also present opportunities for functional 
+use if properly managed. PMC+2NASA Technical Reports Server+2 
+●​ Effective countermeasures must integrate prevention, monitoring, mitigation, and 
+controlled harnessing of biofilms in designed systems. 
+●​ Future research is needed to understand biofilm dynamics under space conditions, 
+optimize mitigation vs. beneficial use tradeoffs, and develop resilient biofilm systems for 
+biotechnological applications."
+Mitochondria-targeted human catalase in the mouse longevity MCAT model mitigates head-tilt bedrest-induced neuro-inflammation in the hippocampus(PMC9695374),Mitochondria-targeted human catalase in the mouse longevity MCAT model mitigates head-tilt bedrest-induced neuro-inflammation in the hippocampus(PMC9695374)_000,"(summary) 
+●​ Prolonged bedrest or head-tilt models simulate aspects of microgravity and lead to 
+neural stress including neuroinflammation, particularly in sensitive brain regions like the 
+hippocampus. PMC 
+●​ Mice of the “MCAT” longevity model express a mitochondria-targeted human catalase 
+(i.e. elevated mitochondrial antioxidant capacity). PMC 
+●​ This study tested whether the MCAT model reduces neuroinflammation (e.g. microglial 
+activation, inflammatory cytokines) in the hippocampus induced by head-tilt bedrest. 
+PMC 
+●​ The authors found that MCAT expression attenuated the increase in neuroinflammatory 
+markers (microglial activation, proinflammatory cytokines) in hippocampal subregions. 
+PMC 
+●​ They conclude that mitochondrial antioxidative defense (via catalase localized to 
+mitochondria) is a promising countermeasure to reduce neuroinflammation under 
+simulated microgravity stress. PMC 
+Key Results 
+●​ Head-tilt (bedrest) induced upregulation of microglial activation markers and 
+proinflammatory cytokines in hippocampal CA1, CA3, and dentate gyrus in wildtype 
+mice. PMC 
+●​ In MCAT mice (with mitochondria-targeted catalase), these inflammatory responses 
+were significantly blunted: less microglial activation and lower cytokine levels compared 
+to non-MCAT controls. PMC 
+●​ Some hippocampal subregions (e.g. CA1) showed stronger mitigation than others, 
+indicating region-specific sensitivity. PMC 
+Conclusion / Implication 
+●​ Expression of mitochondria-targeted human catalase (in the MCAT model) mitigates 
+hippocampal neuroinflammation induced by head-tilt bedrest, supporting the role of 
+mitochondrial ROS in mediating such inflammation under simulated microgravity stress. 
+PMC"
+Mitochondria-targeted human catalase in the mouse longevity MCAT model mitigates head-tilt bedrest-induced neuro-inflammation in the hippocampus(PMC9695374),Mitochondria-targeted human catalase in the mouse longevity MCAT model mitigates head-tilt bedrest-induced neuro-inflammation in the hippocampus(PMC9695374)_001,"●​ This suggests that enhancing mitochondrial antioxidant capacity may be a viable 
+countermeasure to neuroinflammatory damage in conditions simulating microgravity or 
+disuse. PMC 
+●​ The study supports further exploration of mitochondrial-targeted therapies (e.g. 
+antioxidants, gene therapy) to protect the CNS under spaceflight or analogous stress 
+conditions.
+
+/ Implication 
+●​ Expression of mitochondria-targeted human catalase (in the MCAT model) mitigates 
+hippocampal neuroinflammation induced by head-tilt bedrest, supporting the role of 
+mitochondrial ROS in mediating such inflammation under simulated microgravity stress. 
+PMC"
+Mitochondria-targeted human catalase in the mouse longevity MCAT model mitigates head-tilt bedrest-induced neuro-inflammation in the hippocampus(PMC9695374),Mitochondria-targeted human catalase in the mouse longevity MCAT model mitigates head-tilt bedrest-induced neuro-inflammation in the hippocampus(PMC9695374)_002,"●​ This suggests that enhancing mitochondrial antioxidant capacity may be a viable 
+countermeasure to neuroinflammatory damage in conditions simulating microgravity or 
+disuse. PMC 
+●​ The study supports further exploration of mitochondrial-targeted therapies (e.g. 
+antioxidants, gene therapy) to protect the CNS under spaceflight or analogous stress 
+conditions."
+Molecular Mechanism of Microgravity,Molecular Mechanism of Microgravity_000,"Spaceflight and microgravity conditions disrupt the gut microbiome, contributing to metabolic 
+and immune dysregulation. This study investigates the effects of simulated microgravity on 
+intestinal microbiota and host metabolism.
+
+Spaceflight decreased beneficial bacteria (Lactobacillus, Bifidobacterium) and increased 
+pathogenic species (Escherichia coli).
+
+Serum metabolomics revealed increased tryptophan and decreased histidine, indicating 
+disruptions in amino acid metabolism.
+
+Pro-inflammatory cytokines IL-6 and TNF-α were elevated, suggesting systemic inflammation.
+
+Microgravity causes gut microbiota imbalances, affecting metabolism and immune function.
+
+Interventions targeting gut microbiota may mitigate spaceflight-induced health risks."
+NASA Open Science Data Repository for Space Biology and Health,NASA Open Science Data Repository for Space Biology and Health_000,"The NASA Open Science Data Repository centralizes life sciences datasets from spaceflight 
+experiments, including genomic, transcriptomic, proteomic, and metabolomic data, enabling 
+accessibility, reproducibility, and collaboration.
+
+Repository provides open access to diverse datasets from human, animal, and microbial 
+spaceflight studies.
+
+Data standardization enables integration and cross-study analyses.
+
+Platform supports collaborative multi-omics research and model validation.
+
+Enhances research by providing standardized and accessible datasets.
+
+Supports studies on spaceflight-induced changes and facilitates development of 
+countermeasures for astronaut health."
+Neutrophil to Lymphocyte ratio,Neutrophil to Lymphocyte ratio_000,"This review/analysis assesses the neutrophil-to-lymphocyte ratio (NLR) as a simple, 
+systemic inflammation biomarker that could help monitor astronaut immune status during 
+missions. It collates available spaceflight and clinical evidence supporting NLR 
+responsiveness to stress, infection, and inflammation.
+
+Across studies, elevated NLR correlated with systemic inflammation and immune 
+dysregulation associated with spaceflight or analog conditions. The authors highlight 
+relationships of NLR with other inflammatory markers and discuss operational practicality.
+
+NLR is a promising, readily obtainable biomarker for monitoring immune status in 
+astronauts, but additional longitudinal and mission-specific validation is required before 
+operational deployment."
+Plants grown in Apollo lunar regolith present stress,Plants grown in Apollo lunar regolith present stress_000,"This study grew plants (likely Arabidopsis or similar) in actual Apollo lunar regolith and profiled 
+transcriptomes to identify stress and adaptation responses to lunar soil chemistry and physical 
+properties.
+
+Plants grown in lunar regolith showed stress-associated gene expression—oxidative stress, 
+nutrient limitation, and cell wall/adaptation pathways upregulated—indicating that plant growth 
+on lunar regolith induces measurable stress responses though some growth is possible.
+
+Lunar regolith supports some plant growth but generates stress transcriptomes; results help 
+prioritize amendments, microbial partners, or plant genotypes for lunar agriculture and in-situ 
+resource utilization."
+Predicting how varying moisture conditions impact the microbiome of dust collected from the Internation,Predicting how varying moisture conditions impact the microbiome of dust collected from the Internation_000,"The commercialization of space travel will soon lead to many more people living and working in 
+unique built environments similar to the International Space Station, which is a specialized 
+closed environment that contains its own indoor microbiome. Unintended microbial growth can 
+occur in these environments as in buildings on Earth from elevated moisture, such as from a 
+temporary ventilation system failure. This growth can drive negative health outcomes and 
+degrade building materials. We need a predictive approach for modeling microbial growth in 
+these critical indoor spaces.
+
+Fungal Growth: Exposure to elevated relative humidity (RH) facilitated rapid fungal growth in 
+dust collected from the International Space Station (ISS). At 100% RH for 2 weeks, fungal 
+concentrations increased from 4.4 × 10⁶ to 2.1 × 10¹⁰ spore equivalents per milligram of dust."
+Predicting how varying moisture conditions impact the microbiome of dust collected from the Internation,Predicting how varying moisture conditions impact the microbiome of dust collected from the Internation_001,"Diversity Metrics: Both alpha and beta diversity of fungal communities decreased significantly 
+with increasing RH (alpha diversity: Q < 0.05; beta diversity: R² = 0.307, P = 0.001).
+
+Bacterial Communities: Bacterial communities also showed changes with increasing RH, though 
+they could not be modeled using the time-of-wetness framework. Beta diversity decreased with 
+increasing moisture starting at 85% RH (R² = 0.22, P = 0.001), and alpha diversity decreased at 
+85% RH (Q < 0.05).
+
+Time-of-Wetness Modeling: The time-of-wetness framework successfully modeled fungal 
+growth, with activation occurring at 85% RH and deactivation at 100% RH.
+
+Predictive Modeling: Moisture conditions can be used to develop and predict changes in fungal 
+growth and composition onboard human-occupied spacecraft."
+Simulated Microgravity Promotes Horizontal Gene Transfer of Antimicrobial Resistance Genes between Bacterial Genera in the Absence of Antibiotic Selective Pressure (PMC8468678),Simulated Microgravity Promotes Horizontal Gene Transfer of Antimicrobial Resistance Genes between Bacterial Genera in the Absence of Antibiotic Selective Pressure (PMC8468678)_000,"(summary) 
+●​ Horizontal gene transfer (HGT) is a major mechanism of spreading antimicrobial 
+resistance (AMR). This study investigates whether simulated microgravity (SMG) 
+enhances HGT of AMR genes among bacteria withoutantibiotic pressure. PMC 
+●​ They used bacterial genera (donor and recipient) and co-cultures under SMG vs control 
+gravity conditions, tracking transfer of resistance plasmids and genes. PMC 
+●​ The authors found that SMG increased HGT events of AMR genes, even in the absence 
+of antibiotic selective pressure. PMC 
+●​ They highlight that the space/microgravity environment may promote genetic exchange 
+and adaptation among microbes, which has implications for astronaut health and 
+microbial ecology. PMC 
+Key Results 
+●​ Under SMG, the frequency of HGT between donor and recipient bacterial genera was 
+statistically higher compared to normal gravity conditions. PMC 
+●​ This effect persisted even without antibiotic selection, indicating that microgravity itself is 
+a driver of increased genetic exchange. PMC 
+●​ The transferred genes included plasmid-borne antimicrobial resistance genes, 
+demonstrating functional AMR gene movement. PMC 
+Conclusion / Implications 
+●​ Simulated microgravity promotes horizontal gene transfer of antibiotic resistance 
+genes in bacteria, even absent antibiotic selective pressure. PMC 
+●​ This raises concern that the spaceflight (or microgravity) environment could accelerate 
+spread of resistance within microbial communities aboard spacecraft, potentially 
+complicating infection risk and antibiotic efficacy. PMC 
+●​ Countermeasures should consider microbial control strategies (sterilization, containment, 
+monitoring, antimicrobials) and perhaps suppression of gene transfer mechanisms in 
+spacecraft environments. 
+●​ More research is needed to test this in real spaceflight settings and across more 
+bacterial taxa and environmental conditions."
+Simulated Microgravity Promotes Horizontal Gene Transfer of Antimicrobial Resistance Genes between Bacterial Genera in the Absence of Antibiotic Selective Pressure (PMC8468678),Simulated Microgravity Promotes Horizontal Gene Transfer of Antimicrobial Resistance Genes between Bacterial Genera in the Absence of Antibiotic Selective Pressure (PMC8468678)_001,"/ Implications 
+●​ Simulated microgravity promotes horizontal gene transfer of antibiotic resistance 
+genes in bacteria, even absent antibiotic selective pressure. PMC 
+●​ This raises concern that the spaceflight (or microgravity) environment could accelerate 
+spread of resistance within microbial communities aboard spacecraft, potentially 
+complicating infection risk and antibiotic efficacy. PMC 
+●​ Countermeasures should consider microbial control strategies (sterilization, containment, 
+monitoring, antimicrobials) and perhaps suppression of gene transfer mechanisms in 
+spacecraft environments. 
+●​ More research is needed to test this in real spaceflight settings and across more 
+bacterial taxa and environmental conditions."
+"Spaceflight increases sarcoplasmic reticulum Ca²⁺ leak and this cannot be counteracted with BuOE treatment (NPJ Microgravity, 2024) Nature+2PubMed+2","Spaceflight increases sarcoplasmic reticulum Ca²⁺ leak and this cannot be counteracted with BuOE treatment (NPJ Microgravity, 2024) Nature+2PubMed+2_000","(summary) 
+●​ Microgravity exposure (in spaceflight) causes muscle atrophy and dysfunction, in part via 
+dysregulation of Ca²⁺ handling in muscle fibers. The sarcoplasmic reticulum (SR) pump 
+SERCA (which pumps Ca²⁺ from cytosol into SR) is vulnerable to reactive 
+oxygen/nitrogen species (RONS). Nature+1 
+●​ The study aimed to test whether treating mice with the antioxidant MnTnBuOE-2-PyP 
+(BuOE, a SOD mimic) could ameliorate SR Ca²⁺ leak, SERCA dysfunction, and muscle 
+atrophy after spaceflight. Nature+1 
+●​ They used soleus muscle samples from mice flown ~35 days on ISS, treated with either 
+saline or BuOE, and measured muscle mass, SERCA activity, SR Ca²⁺ leak (via 
+ionophore ratio), oxidative damage markers (4-HNE), and protein expression. Nature+1 
+●​ Their findings: spaceflight caused significant soleus muscle atrophy, elevated SR Ca²⁺ 
+leak, and increased oxidative damage; BuOE treatment failed to rescue those defects. 
+Nature+1 
+●​ The authors conclude that spaceflight-induced Ca²⁺ leak and muscle deterioration are 
+not mitigated by BuOE, suggesting other therapeutics (targeting SERCA activation or 
+leak reduction) are needed. Nature+2bioRxiv+2 
+Key Results 
+●​ The soleus:body mass ratio was significantly reduced in flight versus controls, and 
+BuOE did not attenuate this muscle atrophy. Nature+2bioRxiv+2 
+●​ Maximal SERCA ATPase activity was unchanged; however, the ionophore ratio (a 
+measure of Ca²⁺ leak relative to pumping) was increased (i.e. more leak) in flight, with 
+no rescue by BuOE. Nature+2bioRxiv+2 
+●​ Oxidative damage marker 4-HNE was elevated by spaceflight and was not reduced by 
+BuOE treatment. Nature+2bioRxiv+2 
+●​ BuOE modestly increased SERCA’s Ca²⁺ affinity (pCa₅₀) across groups, but that did not 
+suffice to offset increased leak or functional deficits. Nature+1 
+Conclusion / Implication 
+●​ Spaceflight increases SR Ca²⁺ leak in skeletal muscle (soleus), contributing to muscle 
+dysfunction and atrophy, and this cannot be reversed by BuOE antioxidant treatment. 
+Nature+1"
+"Spaceflight increases sarcoplasmic reticulum Ca²⁺ leak and this cannot be counteracted with BuOE treatment (NPJ Microgravity, 2024) Nature+2PubMed+2","Spaceflight increases sarcoplasmic reticulum Ca²⁺ leak and this cannot be counteracted with BuOE treatment (NPJ Microgravity, 2024) Nature+2PubMed+2_001","●​ Even though BuOE showed some effect on SERCA affinity, it was insufficient to 
+counteract leak and oxidative damage in this model. Nature+1 
+●​ The findings suggest that countermeasures solely based on antioxidant therapy may not 
+suffice; more targeted interventions aimed at stabilizing SERCA function or reducing leak 
+are needed to protect muscle Ca²⁺ homeostasis in space.
+
+/ Implication 
+●​ Spaceflight increases SR Ca²⁺ leak in skeletal muscle (soleus), contributing to muscle 
+dysfunction and atrophy, and this cannot be reversed by BuOE antioxidant treatment. 
+Nature+1"
+"Spaceflight increases sarcoplasmic reticulum Ca²⁺ leak and this cannot be counteracted with BuOE treatment (NPJ Microgravity, 2024) Nature+2PubMed+2","Spaceflight increases sarcoplasmic reticulum Ca²⁺ leak and this cannot be counteracted with BuOE treatment (NPJ Microgravity, 2024) Nature+2PubMed+2_002","●​ Even though BuOE showed some effect on SERCA affinity, it was insufficient to 
+counteract leak and oxidative damage in this model. Nature+1 
+●​ The findings suggest that countermeasures solely based on antioxidant therapy may not 
+suffice; more targeted interventions aimed at stabilizing SERCA function or reducing leak 
+are needed to protect muscle Ca²⁺ homeostasis in space."
+Spaceflight-induced gene expression profiles in the mouse brain are attenuated by treatment with the antioxidant BuOE (PMC10487739) PMC,Spaceflight-induced gene expression profiles in the mouse brain are attenuated by treatment with the antioxidant BuOE (PMC10487739) PMC_000,"(summary) 
+●​ Spaceflight induces changes in brain gene expression (transcriptomic perturbations) 
+across brain regions, some of which may relate to oxidative stress and metabolic 
+dysregulation. PMC 
+●​ The authors treated a subset of mice flown on the ISS with BuOE (a SOD mimic 
+antioxidant) to test whether it could attenuate these spaceflight-induced transcriptomic 
+changes. PMC+1 
+●​ They profiled gene expression in four brain regions (Cortex, Frontal Cortex, CA1, 
+Dentate Gyrus) via digital spatial profiling. PMC+1 
+●​ Spaceflight induced hundreds of differentially expressed genes (DEGs) in each region, 
+involving metabolic, stress response, and oxidative stress pathways. PubMed+1 
+●​ BuOE treatment reduced the number and magnitude of spaceflight-induced DEGs, 
+especially in oxidative stress–sensitive pathways. PubMed+1 
+●​ The authors conclude that BuOE can partially attenuate the brain’s transcriptomic stress 
+response to spaceflight. PMC+1 
+Key Results 
+●​ Each of the four brain regions showed numerous DEGs when comparing flight 
+(saline-treated) vs ground controls; both region-specific and overlapping gene sets were 
+identified. PMC+1 
+●​ Enriched pathways among DEGs included metabolism, oxidative stress responses, 
+inflammation, and mitochondrial function. PubMed+1 
+●​ BuOE-treated flown mice had fewer DEGs compared to untreated flown mice, indicating 
+an attenuation of the transcriptomic perturbations induced by spaceflight. PubMed+1 
+●​ The attenuation was particularly strong in genes linked with oxidative stress and 
+metabolic regulation. PMC+1 
+Conclusion / Implication 
+●​ BuOE (antioxidant treatment) can partly blunt the transcriptomic impact of spaceflight on 
+the brain, supporting oxidative stress as a mechanistic contributor to brain gene 
+dysregulation in microgravity. PMC+1 
+●​ This suggests that antioxidant therapies may serve as countermeasures to protect 
+central nervous system function in space, though they may not fully normalize all 
+alterations. PMC+1"
+Spaceflight-induced gene expression profiles in the mouse brain are attenuated by treatment with the antioxidant BuOE (PMC10487739) PMC,Spaceflight-induced gene expression profiles in the mouse brain are attenuated by treatment with the antioxidant BuOE (PMC10487739) PMC_001,"●​ Further work is needed to determine how these transcriptomic changes translate to 
+functional outcomes (cognition, neuronal survival), and whether combinatorial 
+countermeasures (antioxidants + others) are more effective.
+
+/ Implication 
+●​ BuOE (antioxidant treatment) can partly blunt the transcriptomic impact of spaceflight on 
+the brain, supporting oxidative stress as a mechanistic contributor to brain gene 
+dysregulation in microgravity. PMC+1 
+●​ This suggests that antioxidant therapies may serve as countermeasures to protect 
+central nervous system function in space, though they may not fully normalize all 
+alterations. PMC+1
+
+●​ Further work is needed to determine how these transcriptomic changes translate to 
+functional outcomes (cognition, neuronal survival), and whether combinatorial 
+countermeasures (antioxidants + others) are more effective."
+"Swim exercise in Caenorhabditis elegans extends neuromuscular and gut healthspan, enhances learning ability, and protects against neurodegeneration(PNAS _ related) PNAS+2ResearchGate+2","Swim exercise in Caenorhabditis elegans extends neuromuscular and gut healthspan, enhances learning ability, and protects against neurodegeneration(PNAS _ related) PNAS+2ResearchGate+2_000","/ Aim (summary) 
+●​ The authors developed a regimen of long-term swim exercise in C. elegans and asked 
+whether it confers systemic health benefits across multiple tissues (not just muscle), 
+including neuromuscular, gut, and neuronal health. ResearchGate+2PNAS+2 
+●​ They hypothesized that repeated swim training would lead to improved locomotion, 
+mitochondrial function, learning, and protection against neurodegenerative stress. 
+PNAS+1 
+Key Results 
+●​ Multiple daily swim sessions (rather than a single daily session) were necessary to 
+induce exercise adaptation (increase in muscle structural gene expression, improved 
+locomotor velocity) in adults. ResearchGate+1 
+●​ Swim exercise improved mitochondrial network morphology in body wall muscle (less 
+fragmentation, more tubular network) and enhanced mitochondrial respiration 
+parameters. ResearchGate+2bioRxiv+2 
+●​ Beyond muscle, swim exercise improved gut and pharyngeal healthspan, and improved 
+neuronal functions in C. elegans models of neurodegeneration (e.g. tauopathy, 
+Huntington’s disease). ResearchGate+2PubMed+2 
+●​ The exercise regimen also modestly extended midlife survival (i.e. more animals 
+survived in middle age) though it did not extend maximum lifespan. ResearchGate+1 
+Conclusion / Implication 
+●​ Swim exercise in C. elegans yields multi-tissue benefits: improved neuromuscular 
+function, mitochondrial health, gut integrity, and neuroprotection. 
+PubMed+3PNAS+3NASA Technical Reports Server+3 
+●​ The results support that exercise is a robust, cross-tissue intervention that could 
+inform countermeasures in higher organisms (including for spaceflight or aging). 
+●​ The C. elegans model offers a tractable system for dissecting molecular mechanisms 
+and cross-tissue signaling of exercise benefits."
+"Swim exercise in Caenorhabditis elegans extends neuromuscular and gut healthspan, enhances learning ability, and protects against neurodegeneration(PNAS _ related) PNAS+2ResearchGate+2","Swim exercise in Caenorhabditis elegans extends neuromuscular and gut healthspan, enhances learning ability, and protects against neurodegeneration(PNAS _ related) PNAS+2ResearchGate+2_001","/ Implication 
+●​ Swim exercise in C. elegans yields multi-tissue benefits: improved neuromuscular 
+function, mitochondrial health, gut integrity, and neuroprotection. 
+PubMed+3PNAS+3NASA Technical Reports Server+3 
+●​ The results support that exercise is a robust, cross-tissue intervention that could 
+inform countermeasures in higher organisms (including for spaceflight or aging). 
+●​ The C. elegans model offers a tractable system for dissecting molecular mechanisms 
+and cross-tissue signaling of exercise benefits."
+Toward sustainable space exploration_ a roadmap for harnessing the power of microorganisms (Nature Communications) Nature+3Nature+3PubMed+3,Toward sustainable space exploration_ a roadmap for harnessing the power of microorganisms (Nature Communications) Nature+3Nature+3PubMed+3_000,"/ Aim (summary) 
+●​ This is a forward-looking perspective / roadmap on using microbial biotechnology to 
+support sustainable space exploration, especially by leveraging microbes for in-situ 
+resource utilization (ISRU), waste recycling, life support, and loop closure. 
+Nature+3Nature+3Arizona State University+3 
+●​ It seeks to identify microbial systems and engineering strategies that can reduce reliance 
+on Earth resupply and close resource loops (water, nutrients, gases). Nature+2Arizona 
+State University+2 
+Key Themes / Findings 
+●​ The authors highlight key microbial biotechnologies: bioremediation, biomass 
+production, bioenergy, biomining, and gas recycling (e.g. CO₂ to O₂ / organics). 
+Edinburgh Research+3Arizona State University+3Nature+3 
+●​ Integration of microorganisms into all life support compartments is proposed (e.g. 
+habitat, closed-loop systems, human microbiome). PubMed+2Arizona State University+2 
+●​ The roadmap emphasizes loop closure and resilience (microbes that can adapt, 
+self-repair, maintain function under stress). Arizona State University+1 
+●​ Challenges are discussed: system stability, contamination, robustness under radiation, 
+microgravity effects, safety, regulation, translation to Earth systems. Nature+2Arizona 
+State University+2 
+Conclusion / Perspective 
+●​ Microbial biotechnology offers a transformative route to reduce Earth-dependence in 
+space missions, enabling more sustainable human presence by closing loops, recycling 
+waste, producing food and materials. Nature+2Arizona State University+2 
+●​ To realize this vision, research must address engineering, stability, containment, and 
+performance under space conditions (radiation, microgravity, constrained resources). 
+Nature+2Arizona State University+2 
+●​ The proposed roadmap is a call for coordinated investment in microbial systems, 
+synthetic biology, bioreactor design, and integration with life support/ISRU systems 
+for long-duration space exploration."
+Toward sustainable space exploration_ a roadmap for harnessing the power of microorganisms (Nature Communications) Nature+3Nature+3PubMed+3,Toward sustainable space exploration_ a roadmap for harnessing the power of microorganisms (Nature Communications) Nature+3Nature+3PubMed+3_001,"/ Perspective 
+●​ Microbial biotechnology offers a transformative route to reduce Earth-dependence in 
+space missions, enabling more sustainable human presence by closing loops, recycling 
+waste, producing food and materials. Nature+2Arizona State University+2 
+●​ To realize this vision, research must address engineering, stability, containment, and 
+performance under space conditions (radiation, microgravity, constrained resources). 
+Nature+2Arizona State University+2 
+●​ The proposed roadmap is a call for coordinated investment in microbial systems, 
+synthetic biology, bioreactor design, and integration with life support/ISRU systems 
+for long-duration space exploration."
+Transcriptomics Analysis Reveals Molecular Alterations Underpinning Spaceflight Dermatology,Transcriptomics Analysis Reveals Molecular Alterations Underpinning Spaceflight Dermatology_000,"Spaceflight affects skin health, but molecular mechanisms are poorly understood. This study 
+applies transcriptomics to skin tissue from mice and astronauts to identify molecular alterations 
+and potential biomarkers.
+
+Significant gene expression changes in skin barrier function: increased filaggrin, decreased 
+loricrin.
+
+Pro-inflammatory cytokines IL-1β and TNF-α were elevated.
+
+Machine learning identified gene pairs predictive of spaceflight-induced skin alterations.
+
+Gene Expression Changes: Significant alterations were observed in genes related to skin 
+barrier function, including increased expression of filaggrin and decreased expression of loricrin.
+
+Biochemical Profiles: Changes in biochemical markers, such as increased levels of pro-
+inflammatory cytokines IL-1β and TNF-α, were noted."
+Transcriptomics Analysis Reveals Molecular Alterations Underpinning Spaceflight Dermatology,Transcriptomics Analysis Reveals Molecular Alterations Underpinning Spaceflight Dermatology_001,"Machine Learning Insights: Machine learning models identified specific gene pairings 
+associated with spaceflight-induced skin alterations, providing potential biomarkers for 
+monitoring skin health.
+
+Spaceflight induces molecular changes affecting skin barrier and inflammation.
+
+Identified biomarkers can aid in monitoring and developing countermeasures for dermatological 
+health.
+
+Spaceflight induces molecular alterations in skin health, affecting barrier function and 
+inflammatory responses."
+Vive la radiorésistance,Vive la radiorésistance_000,"/ Aims (summary) 
+●​ This is a review that integrates research from radiobiology and biogerontology to explore 
+strategies to enhance human radioresistance (resistance to ionizing radiation) for 
+long-duration deep space missions. PMC 
+●​ It surveys known radiation damage pathways and examines interventions, biological 
+adaptations, and emerging technologies that might bolster radiation resilience in 
+humans. PMC 
+●​ The review aims to identify converging approaches from aging biology and radiation 
+biology (e.g. stress response modulation, DNA repair, antioxidants, hormesis, genetic 
+engineering) to propose a roadmap for future “radioresistance” enhancements. PMC 
+Key Themes / Findings 
+●​ Radioresistance is framed as a capacity to resist, repair, and mitigate molecular, cellular, 
+and tissue damage from ionizing radiation. PMC 
+●​ The authors review mechanisms such as enhanced DNA repair, antioxidant systems, 
+stress response pathways, apoptosis modulation, senescence handling, and 
+proteostasis, noting overlap with mechanisms implicated in aging and longevity. PMC+1 
+●​ They discuss adaptive responses (low-dose radiation preconditioning), hormesis, and 
+cross-resistance phenomena, along with examples from extremophiles and 
+radioresistant organisms. PMC 
+●​ Potential interventions include gene therapy, metabolic reprogramming, pharmaceutical 
+modulators (e.g. radioprotectors), NAD⁺ boosters, senolytics, epigenetic modulators, and 
+manipulation of repair pathways. PMC+1 
+●​ The review also addresses risks, tradeoffs (e.g. cancer risk, off-target damage), ethical 
+and feasibility challenges, and the need for experimental validation in relevant models. 
+PMC 
+Conclusion / Perspective 
+●​ Enhancing human radioresistance is an ambitious but potentially vital goal for enabling 
+safe deep space travel. PMC 
+●​ A multi-modal, integrative approach drawing from aging biology, radiation biology, and 
+emerging biotechnology is necessary. PMC"
+Vive la radiorésistance,Vive la radiorésistance_001,"●​ The field is nascent: many candidate strategies remain speculative or untested, so 
+experimental validation (animal models, human cell systems) is critical. PMC 
+●​ The review argues for prioritized research in combining countermeasures (e.g. 
+radioprotectors + gene editing + metabolic modulators) and for developing 
+“radioresistance engineering” as a pillar of long-term human space exploration.
+
+/ Perspective 
+●​ Enhancing human radioresistance is an ambitious but potentially vital goal for enabling 
+safe deep space travel. PMC 
+●​ A multi-modal, integrative approach drawing from aging biology, radiation biology, and 
+emerging biotechnology is necessary. PMC"
+Vive la radiorésistance,Vive la radiorésistance_002,"●​ The field is nascent: many candidate strategies remain speculative or untested, so 
+experimental validation (animal models, human cell systems) is critical. PMC 
+●​ The review argues for prioritized research in combining countermeasures (e.g. 
+radioprotectors + gene editing + metabolic modulators) and for developing 
+“radioresistance engineering” as a pillar of long-term human space exploration."
+dried plum diet protects from bone loss caused by ionizing radiation,dried plum diet protects from bone loss caused by ionizing radiation_000,"(summary) 
+●​ Ionizing radiation can cause rapid bone (particularly cancellous) loss by increasing 
+osteoclast activity and reducing osteoblast function. PMC+1 
+●​ The authors evaluated whether a diet supplemented with dried plum (DP) could prevent 
+radiation-induced bone loss in mice. PMC+1 
+●​ They measured changes in bone structure, gene expression in bone marrow 
+(resorption/osteoclast genes), and pre-osteoblast function ex vivo. NASA Technical 
+Reports Server+1 
+●​ The DP diet reduced expression of genes associated with bone resorption (e.g. Nfe2l2, 
+Rankl, Mcp1, Opg, TNF-α) and protected marrow-derived osteoprogenitors. PMC 
+●​ Overall, DP diet “completely prevented cancellous bone loss” under the radiation 
+conditions tested. NASA Technical Reports Server+1 
+Key Results 
+●​ In irradiated mice, those fed the dried plum diet did not show the same degree of 
+cancellous bone loss seen in control-diet mice. NASA Technical Reports 
+Server+2PMC+2 
+●​ The DP diet suppressed gene expression of osteoclastogenic/resorptive markers (e.g. 
+Rankl, Mcp1) in bone marrow. PMC 
+●​ Marrow cells from DP-fed irradiated mice, when cultured ex vivo, preserved better 
+osteoblast progenitor activity (i.e. less impairment) compared to controls. NASA 
+Technical Reports Server+1 
+Conclusion / Implication 
+●​ A dried plum–supplemented diet is effective in preventing bone loss caused by ionizing 
+radiation in this mouse model, via suppressing bone resorption signaling and preserving 
+osteoprogenitor function. PMC+2NASA Technical Reports Server+2 
+●​ These findings suggest that DP could be a dietary radioprotective countermeasure 
+for skeletal tissue in contexts such as space radiation exposure. PMC+2NASA Technical 
+Reports Server+2 
+●​ The authors note that further work is needed to isolate the active bioactive components 
+of DP and to test translational potential."
+dried plum diet protects from bone loss caused by ionizing radiation,dried plum diet protects from bone loss caused by ionizing radiation_001,"/ Implication 
+●​ A dried plum–supplemented diet is effective in preventing bone loss caused by ionizing 
+radiation in this mouse model, via suppressing bone resorption signaling and preserving 
+osteoprogenitor function. PMC+2NASA Technical Reports Server+2 
+●​ These findings suggest that DP could be a dietary radioprotective countermeasure 
+for skeletal tissue in contexts such as space radiation exposure. PMC+2NASA Technical 
+Reports Server+2 
+●​ The authors note that further work is needed to isolate the active bioactive components 
+of DP and to test translational potential."
+“Artificial gravity partially protects space-induced neurological deficits in Drosophila melanogaster” PMC+2PubMed+2,“Artificial gravity partially protects space-induced neurological deficits in Drosophila melanogaster” PMC+2PubMed+2_000,"(summary) 
+●​ Spaceflight poses risks to the central nervous system (CNS), and understanding 
+neurological responses is important for future missions. PubMed+1 
+●​ The authors studied Drosophila melanogaster flies flown aboard the International Space 
+Station (ISS) to compare effects of microgravity (SFμg) versus artificially simulated Earth 
+gravity (SF1g) by inflight centrifugation as a countermeasure. PubMed+2PMC+2 
+●​ Inflight behavior under microgravity (SFμg) showed increased activity, but postflight the 
+flies had significant defects in climbing performance. PubMed+2PMC+2 
+●​ Multi-omics (transcriptomics + proteomics) analysis revealed alterations in pathways 
+related to metabolism, oxidative stress, and synaptic transmission in both SFμg and 
+SF1g groups. PubMed+2Penn State+2 
+●​ However, immediate postflight neurological changes — including neuronal loss, changes 
+in glial cell counts, oxidative damage, and apoptosis — were seen only in the 
+microgravity (SFμg) condition. PubMed+2Penn State+2 
+●​ After return and acclimation to Earth conditions, both SF1g and SFμg brains showed 
+progressive neuronal loss and glial phenotypes, with more severe effects in SFμg. 
+PubMed+2Penn State+2 
+●​ The authors conclude that artificial gravity (i.e. SF1g via centrifugation) partially 
+protects the CNS from the adverse effects of spaceflight. PubMed+2PMC+2"
+“Artificial gravity partially protects space-induced neurological deficits in Drosophila melanogaster” PMC+2PubMed+2,“Artificial gravity partially protects space-induced neurological deficits in Drosophila melanogaster” PMC+2PubMed+2_001,"Results (key findings) 
+Below are several of the major findings: 
+1.​ Behavioral changes 
+○​ During the mission, flies in microgravity (SFμg) showed increased overall activity 
+levels compared to controls. PubMed+2PMC+2 
+○​ After return to Earth, SFμg flies displayed significant defects in climbing ability (a 
+measure of neuromuscular/behavioral performance). PubMed+3PubMed+3Penn 
+State+3 
+2.​ Brain morphology and cell counts 
+○​ The area of neuronal cortex and neuropil was reduced in SFμg flies compared to 
+Earth controls and SF1g flies. PubMed+2Penn State+2"
+“Artificial gravity partially protects space-induced neurological deficits in Drosophila melanogaster” PMC+2PubMed+2,“Artificial gravity partially protects space-induced neurological deficits in Drosophila melanogaster” PMC+2PubMed+2_002,"○​ Dopaminergic neurons (DA neurons) were lost in SFμg condition; glial cell 
+number changes were also observed. PubMed+2Penn State+2 
+○​ Markers of apoptosis and oxidative DNA damage were elevated in SFμg flies. 
+PubMed+2Penn State+2 
+3.​ Multi-omics signatures 
+○​ Differentially expressed genes and proteins in both SFμg and SF1g flies 
+implicated pathways of metabolism, oxidative stress, mitochondrial function, 
+synaptic transmission, and stress responses. PubMed+2Penn State+2 
+○​ In particular, mitochondrial dynamics (fusion/fission), glycolysis, oxidative 
+phosphorylation, fatty acid and amino acid metabolism were affected. 
+PubMed+2Penn State+2 
+○​ Stress response and synaptic signaling pathways showed perturbations in both 
+SFμg and SF1g, but more strongly in SFμg. PubMed+2Penn State+2 
+4.​ Post-flight / acclimation effects 
+○​ Over time (after return to Earth), both SF1g and SFμg flies’ brains showed 
+progressive degeneration: further neuronal loss, glial changes, and more 
+pronounced phenotypes in SFμg. PubMed+2Penn State+2 
+○​ SFμg flies showed greater glial loss and formation of glial aggregates (“rosettes”) 
+during the recovery period. PubMed+2Penn State+2 
+Overall, the result is that artificial gravity mitigated but did not entirely prevent neurological 
+damage from microgravity."
+“Artificial gravity partially protects space-induced neurological deficits in Drosophila melanogaster” PMC+2PubMed+2,“Artificial gravity partially protects space-induced neurological deficits in Drosophila melanogaster” PMC+2PubMed+2_003,"Conclusion / Concluding statements 
+●​ The data support the idea that artificial gravity (by inflight centrifugation to simulate 
+Earth’s gravity) partially protects the central nervous system (CNS) from the adverse 
+neurological effects induced by microgravity. PubMed+2Penn State+2 
+●​ Microgravity (SFμg) induces more severe neuronal degeneration, oxidative stress, 
+apoptosis, and glial dysfunction than the SF1g (artificial gravity) condition. 
+PubMed+2Penn State+2 
+●​ However, the protection is incomplete: some neurological changes still occur under 
+SF1g, and long-term deterioration continues after return, though less severe than in 
+SFμg. PubMed+2Penn State+2 
+●​ The authors suggest that artificial gravity is a promising countermeasure to reduce CNS 
+risks in spaceflight, but further work is needed to optimize it, especially for long-duration 
+missions. Penn State+2PubMed+2"
+“Artificial gravity partially protects space-induced neurological deficits in Drosophila melanogaster” PMC+2PubMed+2,“Artificial gravity partially protects space-induced neurological deficits in Drosophila melanogaster” PMC+2PubMed+2_004,"(key findings) 
+Below are several of the major findings: 
+1.​ Behavioral changes 
+○​ During the mission, flies in microgravity (SFμg) showed increased overall activity 
+levels compared to controls. PubMed+2PMC+2 
+○​ After return to Earth, SFμg flies displayed significant defects in climbing ability (a 
+measure of neuromuscular/behavioral performance). PubMed+3PubMed+3Penn 
+State+3 
+2.​ Brain morphology and cell counts 
+○​ The area of neuronal cortex and neuropil was reduced in SFμg flies compared to 
+Earth controls and SF1g flies. PubMed+2Penn State+2"
+“Artificial gravity partially protects space-induced neurological deficits in Drosophila melanogaster” PMC+2PubMed+2,“Artificial gravity partially protects space-induced neurological deficits in Drosophila melanogaster” PMC+2PubMed+2_005,"○​ Dopaminergic neurons (DA neurons) were lost in SFμg condition; glial cell 
+number changes were also observed. PubMed+2Penn State+2 
+○​ Markers of apoptosis and oxidative DNA damage were elevated in SFμg flies. 
+PubMed+2Penn State+2 
+3.​ Multi-omics signatures 
+○​ Differentially expressed genes and proteins in both SFμg and SF1g flies 
+implicated pathways of metabolism, oxidative stress, mitochondrial function, 
+synaptic transmission, and stress responses. PubMed+2Penn State+2 
+○​ In particular, mitochondrial dynamics (fusion/fission), glycolysis, oxidative 
+phosphorylation, fatty acid and amino acid metabolism were affected. 
+PubMed+2Penn State+2 
+○​ Stress response and synaptic signaling pathways showed perturbations in both 
+SFμg and SF1g, but more strongly in SFμg. PubMed+2Penn State+2 
+4.​ Post-flight / acclimation effects 
+○​ Over time (after return to Earth), both SF1g and SFμg flies’ brains showed 
+progressive degeneration: further neuronal loss, glial changes, and more 
+pronounced phenotypes in SFμg. PubMed+2Penn State+2 
+○​ SFμg flies showed greater glial loss and formation of glial aggregates (“rosettes”) 
+during the recovery period. PubMed+2Penn State+2 
+Overall, the result is that artificial gravity mitigated but did not entirely prevent neurological 
+damage from microgravity."
+“Artificial gravity partially protects space-induced neurological deficits in Drosophila melanogaster” PMC+2PubMed+2,“Artificial gravity partially protects space-induced neurological deficits in Drosophila melanogaster” PMC+2PubMed+2_006,"/ Concluding statements 
+●​ The data support the idea that artificial gravity (by inflight centrifugation to simulate 
+Earth’s gravity) partially protects the central nervous system (CNS) from the adverse 
+neurological effects induced by microgravity. PubMed+2Penn State+2 
+●​ Microgravity (SFμg) induces more severe neuronal degeneration, oxidative stress, 
+apoptosis, and glial dysfunction than the SF1g (artificial gravity) condition. 
+PubMed+2Penn State+2 
+●​ However, the protection is incomplete: some neurological changes still occur under 
+SF1g, and long-term deterioration continues after return, though less severe than in 
+SFμg. PubMed+2Penn State+2 
+●​ The authors suggest that artificial gravity is a promising countermeasure to reduce CNS 
+risks in spaceflight, but further work is needed to optimize it, especially for long-duration 
+missions. Penn State+2PubMed+2"
