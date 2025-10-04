@@ -87,15 +87,15 @@ def test_database_comprehensive():
     print("🔎 Content Search Examples:")
     
     # Search for papers about microgravity
-    microgravity_papers = [p for p in papers if 'microgravity' in p['title'].lower() or 'microgravity' in p['abstract'].lower()]
+    microgravity_papers = [p for p in papers if (p['title'] and 'microgravity' in p['title'].lower()) or (p['abstract'] and 'microgravity' in p['abstract'].lower())]
     print(f"  Papers about microgravity: {len(microgravity_papers)}")
     
     # Search for papers about bone
-    bone_papers = [p for p in papers if 'bone' in p['title'].lower() or 'bone' in p['abstract'].lower()]
+    bone_papers = [p for p in papers if (p['title'] and 'bone' in p['title'].lower()) or (p['abstract'] and 'bone' in p['abstract'].lower())]
     print(f"  Papers about bone: {len(bone_papers)}")
     
     # Search for papers about plants
-    plant_papers = [p for p in papers if 'plant' in p['title'].lower() or 'plant' in p['abstract'].lower()]
+    plant_papers = [p for p in papers if (p['title'] and 'plant' in p['title'].lower()) or (p['abstract'] and 'plant' in p['abstract'].lower())]
     print(f"  Papers about plants: {len(plant_papers)}")
     
     # Test 6: Database integrity check

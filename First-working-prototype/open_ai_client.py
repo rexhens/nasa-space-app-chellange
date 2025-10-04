@@ -120,13 +120,16 @@ class SpaceResearchDB:
             
             for _, row in df.iterrows():
                 try:
+                    # Handle different CSV formats (PMC vs PDF extracted)
+                    filename = row.get('filename', row.get('url', ''))
+                    
                     cursor.execute("""
                         INSERT OR REPLACE INTO papers 
                         (paper_id, filename, title, abstract, results, conclusion, full_text)
                         VALUES (?, ?, ?, ?, ?, ?, ?)
                     """, (
                         row['paper_id'],
-                        row['filename'],
+                        filename,
                         row['title'],
                         row['abstract'],
                         row['results'],
