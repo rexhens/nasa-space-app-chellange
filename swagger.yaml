@@ -1,0 +1,480 @@
+openapi: 3.0.3
+info:
+  title: NASA Space App Challenge - RAG API
+  description: |
+    A Retrieval-Augmented Generation (RAG) system for space biology research papers.
+    This API provides access to 544 PMC papers with semantic search capabilities and AI-powered answer generation.
+    
+    ## Features
+    - Semantic search across 544 space biology papers
+    - AI-powered answer generation using OpenAI
+    - Database integration with query logging
+    - Paper metadata and content retrieval
+    
+    ## Authentication
+    This API requires a valid OpenAI API key to be set in the environment variables.
+  version: 1.0.0
+  contact:
+    name: NASA Space App Challenge Team
+    email: team@nasa-space-app-challenge.com
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+
+servers:
+  - url: http://localhost:8000
+    description: Development server
+  - url: http://192.168.0.206:8000
+    description: Local network server
+
+paths:
+  /health:
+    get:
+      summary: Health Check
+      description: Check if the API server and RAG system are running properly
+      operationId: healthCheck
+      tags:
+        - System
+      responses:
+        '200':
+          description: API is healthy
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: "healthy"
+                  message:
+                    type: string
+                    example: "NASA Space App Challenge RAG API is running"
+                  rag_system_initialized:
+                    type: boolean
+                    example: true
+                  database_initialized:
+                    type: boolean
+                    example: true
+              example:
+                status: "healthy"
+                message: "NASA Space App Challenge RAG API is running"
+                rag_system_initialized: true
+                database_initialized: true
+
+  /stats:
+    get:
+      summary: Database Statistics
+      description: Get statistics about the database including paper count, chunk count, and database size
+      operationId: getStats
+      tags:
+        - System
+      responses:
+        '200':
+          description: Database statistics retrieved successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  papers:
+                    type: integer
+                    description: Number of papers in the database
+                    example: 544
+                  chunks:
+                    type: integer
+                    description: Number of text chunks in the database
+                    example: 1970
+                  queries:
+                    type: integer
+                    description: Number of queries logged in the database
+                    example: 15
+                  database_size_bytes:
+                    type: integer
+                    description: Database size in bytes
+                    example: 27555584
+                  database_size_mb:
+                    type: number
+                    format: float
+                    description: Database size in megabytes
+                    example: 26.28
+              example:
+                papers: 544
+                chunks: 1970
+                queries: 15
+                database_size_bytes: 27555584
+                database_size_mb: 26.28
+        '500':
+          description: Database not initialized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /query:
+    post:
+      summary: Query RAG System
+      description: |
+        Query the RAG system with a natural language question. The system will:
+        1. Retrieve relevant passages from the 544 PMC papers
+        2. Generate an AI-powered answer using OpenAI
+        3. Log the query to the database
+        
+        This is the main endpoint for interacting with the space biology knowledge base.
+      operationId: queryRAG
+      tags:
+        - RAG
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - query
+              properties:
+                query:
+                  type: string
+                  description: Natural language question about space biology
+                  example: "What are the effects of microgravity on bone health?"
+                top_k:
+                  type: integer
+                  description: Number of relevant passages to retrieve (1-10)
+                  minimum: 1
+                  maximum: 10
+                  default: 5
+                  example: 5
+                model:
+                  type: string
+                  description: OpenAI model to use for answer generation
+                  enum: [gpt-3.5-turbo, gpt-4o-mini, gpt-4o]
+                  default: gpt-3.5-turbo
+                  example: gpt-3.5-turbo
+            examples:
+              bone_health:
+                summary: Bone Health Query
+                value:
+                  query: "What are the effects of microgravity on bone health?"
+                  top_k: 5
+                  model: "gpt-3.5-turbo"
+              plant_spaceflight:
+                summary: Plant Spaceflight Query
+                value:
+                  query: "How do plants respond to spaceflight conditions?"
+                  top_k: 3
+                  model: "gpt-4o-mini"
+              radiation_effects:
+                summary: Radiation Effects Query
+                value:
+                  query: "What are the latest findings on space radiation effects?"
+                  top_k: 5
+                  model: "gpt-3.5-turbo"
+      responses:
+        '200':
+          description: Query processed successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  query:
+                    type: string
+                    description: The original query
+                    example: "What are the effects of microgravity on bone health?"
+                  answer:
+                    type: string
+                    description: AI-generated answer with citations
+                    example: "Microgravity exposure leads to bone loss in weight-bearing bones, particularly in the femur, with significant declines in bone mineral density and bone strength..."
+                  retrieved_passages:
+                    type: array
+                    description: Retrieved relevant passages
+                    items:
+                      $ref: '#/components/schemas/RetrievedPassage'
+                  total_passages:
+                    type: integer
+                    description: Number of retrieved passages
+                    example: 5
+                  model_used:
+                    type: string
+                    description: OpenAI model used for generation
+                    example: "gpt-3.5-turbo"
+              example:
+                query: "What are the effects of microgravity on bone health?"
+                answer: "Microgravity exposure leads to bone loss in weight-bearing bones, particularly in the femur, with significant declines in bone mineral density and bone strength. This bone loss is primarily associated with mechanical unloading of weight-bearing sites and can be accelerated during spaceflight. Additionally, microgravity can cause adaptive changes in bones that do not normally bear weight, such as the calvaria. Studies on rats and mice have shown cancellous osteopenia in the femoral head due to spaceflight. Overall, microgravity negatively impacts bone health by promoting bone loss and changes in bone microarchitecture [row39_chunk1], [row559_chunk0], [row189_chunk0], [row452_chunk0], [row25_chunk0]."
+                retrieved_passages:
+                  - score: 0.7241243720054626
+                    paper_id: "PMC3774184"
+                    chunk_id: "row39_chunk1"
+                    title: "Partial weight suspension: a novel murine model for investigating adaptation to reduced musculoskeletal loading"
+                    text: "loskeletal deconditioning associated with spaceflight has been noted since the early days of the Gemini program. Despite rigorous exercise protocols and other countermeasures, negative calcium balance..."
+                total_passages: 5
+                model_used: "gpt-3.5-turbo"
+        '400':
+          description: Bad request - missing or invalid query
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /papers:
+    get:
+      summary: List Papers
+      description: Get a list of papers with optional search functionality
+      operationId: listPapers
+      tags:
+        - Papers
+      parameters:
+        - name: search
+          in: query
+          description: Search term to filter papers by title or abstract
+          required: false
+          schema:
+            type: string
+          example: "microgravity"
+        - name: limit
+          in: query
+          description: Maximum number of papers to return
+          required: false
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 100
+            default: 10
+          example: 10
+      responses:
+        '200':
+          description: Papers retrieved successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  papers:
+                    type: array
+                    description: List of papers
+                    items:
+                      $ref: '#/components/schemas/PaperSummary'
+                  total_found:
+                    type: integer
+                    description: Number of papers found
+                    example: 25
+                  search_term:
+                    type: string
+                    description: Search term used (if any)
+                    example: "microgravity"
+              example:
+                papers:
+                  - paper_id: "PMC3774184"
+                    title: "Partial weight suspension: a novel murine model for investigating adaptation to reduced musculoskeletal loading"
+                    abstract: "Musculoskeletal deconditioning associated with spaceflight has been noted since the early days of the Gemini program..."
+                    created_at: "2025-10-04 12:21:41"
+                total_found: 25
+                search_term: "microgravity"
+        '500':
+          description: Database not initialized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /papers/{paper_id}:
+    get:
+      summary: Get Paper Details
+      description: Get detailed information about a specific paper including all chunks
+      operationId: getPaperDetails
+      tags:
+        - Papers
+      parameters:
+        - name: paper_id
+          in: path
+          description: Unique identifier of the paper
+          required: true
+          schema:
+            type: string
+          example: "PMC3774184"
+      responses:
+        '200':
+          description: Paper details retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaperDetails'
+              example:
+                paper_id: "PMC3774184"
+                title: "Partial weight suspension: a novel murine model for investigating adaptation to reduced musculoskeletal loading"
+                abstract: "Musculoskeletal deconditioning associated with spaceflight has been noted since the early days of the Gemini program. Despite rigorous exercise protocols and other countermeasures, negative calcium balance (~0.5%/mo) and bone loss in weight-bearing bones (1.0–2.7%/mo) are still the hallmarks of flight."
+                results: "The results showed significant bone loss in weight-bearing bones..."
+                conclusion: "This study demonstrates that partial weight suspension provides an effective model..."
+                full_text: "Complete paper text..."
+                created_at: "2025-10-04 12:21:41"
+                chunks:
+                  - chunk_id: "PMC3774184_000"
+                    text: "Musculoskeletal deconditioning associated with spaceflight has been noted since the early days of the Gemini program..."
+                  - chunk_id: "PMC3774184_001"
+                    text: "Despite rigorous exercise protocols and other countermeasures, negative calcium balance..."
+                total_chunks: 2
+        '404':
+          description: Paper not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Database not initialized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+components:
+  schemas:
+    RetrievedPassage:
+      type: object
+      properties:
+        score:
+          type: number
+          format: float
+          description: Relevance score (0-1)
+          example: 0.7241243720054626
+        paper_id:
+          type: string
+          description: Unique identifier of the paper
+          example: "PMC3774184"
+        chunk_id:
+          type: string
+          description: Unique identifier of the text chunk
+          example: "row39_chunk1"
+        title:
+          type: string
+          description: Title of the paper
+          example: "Partial weight suspension: a novel murine model for investigating adaptation to reduced musculoskeletal loading"
+        text:
+          type: string
+          description: Relevant text excerpt (truncated to 200 characters)
+          example: "loskeletal deconditioning associated with spaceflight has been noted since the early days of the Gemini program. Despite rigorous exercise protocols and other countermeasures, negative calcium balance..."
+      required:
+        - score
+        - paper_id
+        - chunk_id
+        - title
+        - text
+
+    PaperSummary:
+      type: object
+      properties:
+        paper_id:
+          type: string
+          description: Unique identifier of the paper
+          example: "PMC3774184"
+        title:
+          type: string
+          description: Title of the paper
+          example: "Partial weight suspension: a novel murine model for investigating adaptation to reduced musculoskeletal loading"
+        abstract:
+          type: string
+          description: Abstract of the paper (truncated to 300 characters)
+          example: "Musculoskeletal deconditioning associated with spaceflight has been noted since the early days of the Gemini program..."
+        created_at:
+          type: string
+          format: date-time
+          description: When the paper was added to the database
+          example: "2025-10-04 12:21:41"
+      required:
+        - paper_id
+        - title
+        - abstract
+        - created_at
+
+    PaperDetails:
+      type: object
+      properties:
+        paper_id:
+          type: string
+          description: Unique identifier of the paper
+          example: "PMC3774184"
+        title:
+          type: string
+          description: Title of the paper
+          example: "Partial weight suspension: a novel murine model for investigating adaptation to reduced musculoskeletal loading"
+        abstract:
+          type: string
+          description: Abstract of the paper
+          example: "Musculoskeletal deconditioning associated with spaceflight has been noted since the early days of the Gemini program..."
+        results:
+          type: string
+          description: Results section of the paper
+          example: "The results showed significant bone loss in weight-bearing bones..."
+        conclusion:
+          type: string
+          description: Conclusion section of the paper
+          example: "This study demonstrates that partial weight suspension provides an effective model..."
+        full_text:
+          type: string
+          description: Complete text of the paper
+          example: "Complete paper text..."
+        created_at:
+          type: string
+          format: date-time
+          description: When the paper was added to the database
+          example: "2025-10-04 12:21:41"
+        chunks:
+          type: array
+          description: All text chunks for this paper
+          items:
+            type: object
+            properties:
+              chunk_id:
+                type: string
+                description: Unique identifier of the chunk
+                example: "PMC3774184_000"
+              text:
+                type: string
+                description: Text content of the chunk (truncated to 200 characters)
+                example: "Musculoskeletal deconditioning associated with spaceflight has been noted since the early days of the Gemini program..."
+        total_chunks:
+          type: integer
+          description: Total number of chunks for this paper
+          example: 2
+      required:
+        - paper_id
+        - title
+        - abstract
+        - results
+        - conclusion
+        - full_text
+        - created_at
+        - chunks
+        - total_chunks
+
+    Error:
+      type: object
+      properties:
+        error:
+          type: string
+          description: Error message
+          example: "Database not initialized"
+      required:
+        - error
+
+  tags:
+    - name: System
+      description: System health and statistics endpoints
+    - name: RAG
+      description: RAG system query endpoints
+    - name: Papers
+      description: Paper management and retrieval endpoints
+
+  securitySchemes:
+    OpenAIKey:
+      type: apiKey
+      in: header
+      name: X-OpenAI-Key
+      description: OpenAI API key for answer generation (set in environment variables)
+
+security:
+  - OpenAIKey: []
