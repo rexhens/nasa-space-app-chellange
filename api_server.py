@@ -205,7 +205,7 @@ def get_papers():
                 {
                     "paper_id": p['paper_id'],
                     "title": p['title'],
-                    "abstract": p['abstract'][:300] + "..." if p['abstract'] and len(p['abstract']) > 300 else p['abstract'],
+                    "abstract": p['abstract'],
                     "created_at": p['created_at']
                 }
                 for p in papers
